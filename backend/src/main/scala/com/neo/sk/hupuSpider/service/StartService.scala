@@ -38,7 +38,6 @@ trait StartService extends CirceSupport with ServiceUtils{
 
   val numRouter = pathPrefix("start") {
     (path("hello") & get){
-      //println("hello")
       getFromResource("html/index.html")
     } ~ (path("start") & post) {
       entity(as[Either[Error, ptcl.StartReq]]) {

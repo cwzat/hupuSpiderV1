@@ -32,10 +32,10 @@ class NumOnServer extends Component[Div]{
         //后台返回的处理
         if(rsp.errCode == 0) {
           println("爬虫已经开始")
-          val postLength = h2("主贴之前的数目是"+rsp.lengthPost).render
-          val commentLength = h2("回帖之前的数目是"+rsp.lengthComment).render
+          val postLength = p("主贴之前的数目是"+rsp.lengthPost).render
+          val commentLength = p("回帖之前的数目是"+rsp.lengthComment).render
           val total = rsp.lengthComment + rsp.lengthPost
-          val totalLength = h2("总计"+total).render
+          val totalLength = p("总计"+total).render
 
 //          val postLengthL = h2("主贴现在的数目是"+rsp.lengthPost).render
 //          val commentLengthL = h2("回帖现在的数目是"+rsp.lengthComment).render
@@ -78,10 +78,10 @@ class NumOnServer extends Component[Div]{
 
           println("数据返回Num"+ now2)
 
-          val postLength = h2("主贴现在的数目是"+rsp.lengthPost).render
-          val commentLength = h2("回帖现在的数目是"+rsp.lengthComment).render
+          val postLength = p("主贴现在的数目是"+rsp.lengthPost).render
+          val commentLength = p("回帖现在的数目是"+rsp.lengthComment).render
           val total = rsp.lengthComment + rsp.lengthPost
-          val totalLength = h2("总计"+total).render
+          val totalLength = p("总计"+total).render
           tmpLookNum.innerHTML = ""
           tmpLookNum.appendChild(postLength)
           tmpLookNum.appendChild(commentLength)

@@ -123,8 +123,8 @@ class GetAreaPostUrl extends Actor {
           while (postUrlQueue.nonEmpty) {
             val h = postUrlQueue.dequeue() // 帖子的url
             val tmp = context.child("GetPostInfo" + s"$getPostContentID").getOrElse {
-              Count.c += 1
-              println("c================",Count.c)
+//              Count.c += 1
+//              println("c================",Count.c)
               context.actorOf(Props[GetPostInfo], name = "GetPostInfo" + s"$getPostContentID")
             } ! TalkGetContentOrComment(h, boardName, areaName, stateReq, getPostContentID)
 //            context.system.scheduler.schedule(0.5.seconds,5.seconds,tmp,
@@ -185,32 +185,28 @@ class GetAreaPostUrl extends Actor {
               val result = pattern.findFirstMatchIn(h)
               val tmp = result.get
               curId = tmp.group(1).toString.toLong
+              //if (curId > maxPostId) {
+              //logger.info("最新帖子" + " " + boardName + " " + areaName + " " + h)
+              val tmpT = context.child("GetPostInfo" + s"$getPostContentID").getOrElse {
+//                Count.c += 1
+//                println("c================",Count.c)
+                context.actorOf(Props[GetPostInfo], name = "GetPostInfo" + s"$getPostContentID")
+              } ! TalkGetContentOrComment(h, boardName, areaName, stateReq, getPostContentID)
+              //}
+              //            else {
+              //              postUrlQueue.clear()
+              //              isIncrease = 1 //更新的已经更新完了  可以停止了
+              //              //context.stop(self)
+              //
+              //            }
+              //Thread.sleep(1000)
             }
             catch {
               case e:Exception =>
-               println("拿帖子的url失败")
+               println("拿帖子的url失败" + h)
             }
 
-            if (curId > maxPostId) {
-              logger.info("最新帖子" + " " + boardName + " " + areaName + " " + h)
-              val tmp = context.child("GetPostInfo" + s"$getPostContentID").getOrElse {
-                Count.c += 1
-                println("c================",Count.c)
-                context.actorOf(Props[GetPostInfo], name = "GetPostInfo" + s"$getPostContentID")
-              } ! TalkGetContentOrComment(h, boardName, areaName, stateReq, getPostContentID)
-//              context.system.scheduler.schedule(1.seconds,
-//                                                3.seconds,
-//                                                tmp,
-//                TalkGetContentOrComment(h, boardName, areaName, stateReq, getPostContentID)
-//                )
-            }
-            else {
-              postUrlQueue.clear()
-              isIncrease = 1 //更新的已经更新完了  可以停止了
-              //context.stop(self)
 
-            }
-            //Thread.sleep(1000)
 
           }
           if (postUrlQueue.isEmpty && isIncrease == 0) {

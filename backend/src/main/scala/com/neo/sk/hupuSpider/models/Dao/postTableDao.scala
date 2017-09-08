@@ -43,4 +43,22 @@ object postTableDao {
   def lengthPost() = db.run{
     tPosttable.length.result
   }
+  def getAreaPostTitle(board:String,subarea:String) = db.run{
+    tPosttable.filter(_.board === board).
+      filter(_.subarea === subarea).
+      map(_.posttitle).
+      result
+  }
+  def getAreaPostInfo(board:String,subarea:String) = db.run{
+   tPosttable.filter(_.board === board).
+      filter(_.subarea === subarea).
+      map(r => (r.posttitle ,r.content, r.posturl ,r.authorname ,r.authorurl , r.time)).
+      result
+  }
+  def getAreaConPs(board:String,areaName:String) = db.run(
+    tPosttable.filter(_.board === board).
+      filter(_.subarea === areaName).
+      map(_.posturl).
+      result
+  )
 }

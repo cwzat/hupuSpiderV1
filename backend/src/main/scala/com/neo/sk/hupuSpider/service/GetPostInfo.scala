@@ -117,8 +117,8 @@ class GetPostInfo extends Actor {
                 while (idx >= 2){
                   var curPage = "https://bbs.hupu.com/" +postId + "-" + s"$idx" +".html"
                   val tmp = context.child("GetPostComment" + s"$postId" ) getOrElse {
-                    Count.c += 1
-                    println("c================",Count.c)
+//                    Count.c += 1
+//                    println("c================",Count.c)
                     context.actorOf(Props[GetPostComment], name = "GetPostComment" + s"$postId" )
                   } ! GetPostEachPge(curPage,incCom,boardName,areaName)
 //                  context.system.scheduler.schedule(1.second,2.seconds,tmp,
@@ -127,8 +127,8 @@ class GetPostInfo extends Actor {
                   //Thread.sleep(1000)
                 }
                 context.child("GetPostComment" + s"$postId" ) getOrElse {
-                  Count.c += 1
-                  println("c================",Count.c)
+//                  Count.c += 1
+//                  println("c================",Count.c)
                   context.actorOf(Props[GetPostComment], name = "GetPostComment" + s"$postId" )
                 } ! GetPostEachPge(postUrl,incCom,boardName,areaName)
               }
@@ -156,79 +156,45 @@ class GetPostInfo extends Actor {
     val subarea = areaName
 
     val pattern = "https:\\/\\/bbs\\.hupu\\.com\\/([0-9]+).html".r
-    val result = pattern.findFirstMatchIn(postUrl).get
-    val id = result.group(1).toLong
-
-    var postTitle = doc.title()
-
-
-    var authorInfo = doc.select("div[class=author]").select("div[class=left]")
-    var authorName = "unknowName"
-    var authorUrl = "unknowUrl"
-    var time = ""
-    if (authorInfo.size() != 0) {
-      val author = authorInfo.first()
-      authorUrl = author.select("a").attr("href")
-      authorName = author.select("a[class=u]").text()
-      time = author.select("span[class=stime]").text()
-    }
-    var content = postTitle
     try{
-      val tmp =  doc.select("div[class=quote-content]")
-      content = tmp.first().text()
+      val result = pattern.findFirstMatchIn(postUrl).get
+      val id = result.group(1).toLong
+      var postTitle = doc.title()
+      var authorInfo = doc.select("div[class=author]").select("div[class=left]")
+      var authorName = "unknowName"
+      var authorUrl = "unknowUrl"
+      var time = ""
+      if (authorInfo.size() != 0) {
+        val author = authorInfo.first()
+        authorUrl = author.select("a").attr("href")
+        authorName = author.select("a[class=u]").text()
+        time = author.select("span[class=stime]").text()
+      }
+      var content = postTitle
+      try{
+        val tmp =  doc.select("div[class=quote-content]")
+        content = tmp.first().text()
+      }
+      catch {
+        case e:Exception =>
+      }
+
+      postTableDao.insert(board, subarea, id,
+        postUrl, postTitle, authorName,
+        authorUrl, content, time).onComplete{
+        case Failure(e) =>
+        case Success(r) =>
+          Count.postLength += 1
+      }
     }
     catch {
       case e:Exception =>
+
     }
 
-    postTableDao.insert(board, subarea, id,
-      postUrl, postTitle, authorName,
-      authorUrl, content, time).onComplete{
-      case Failure(e) =>
-      case Success(r) =>
-        Count.postLength += 1
-    }
+
+
   }
-
-  //    val httpHeaders = List[Header](
-  //      new BasicHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"),
-  //      new BasicHeader("Accept-Encoding", "gzip, deflate"),
-  //      new BasicHeader("Accept-Language", "zh-CN,zh;q=0.8,en;q=0.6"),
-  //      new BasicHeader("Cache-Control", "max-age=0"),
-  //      new BasicHeader("Connection", "keep-alive"),
-  //      new BasicHeader("Upgrade-Insecure-Requests", "1"),
-  //      new BasicHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36")
-  //    )
-  //    val httpClient: CloseableHttpClient = HttpClientBuilder.create().setDefaultHeaders(httpHeaders.asJava).build()
-  //
-  //    def fetch(url: String): Option[String] = {
-  //      try {
-  //        val request = new HttpGet(url)
-  //
-  //        val response = httpClient.execute(request)
-  //        val statusCode = response.getStatusLine.getStatusCode
-  //        val entity = response.getEntity
-  //        val str = EntityUtils.toString(entity, "utf-8")
-  //        EntityUtils.consume(response.getEntity)
-  //        response.close()
-  //
-  //        if (statusCode == HttpStatus.SC_OK) {
-  //          Some(str)
-  //        } else {
-  //          None
-  //        }
-  //      } catch {
-  //        case e: Exception =>
-  //          logger.debug(s"fetch url:$url error: $e")
-  //          None
-  //      }
-  //    }
-  //
-  //    var doc: Document = null
-  //    fetch(postUrl).foreach {
-  //      str =>
-  //        doc = Jsoup.parse(str)
-  //    }
 
 
 

@@ -21,6 +21,8 @@ object StartPage extends Component[Div]{
   private val title = h1(*.textAlign := "center")("hello")
   private val content = p(*.textAlign := "center")("虎扑爬虫")
 
+  private val showArea = a(*.href := "http://localhost:9000/hupuSpider/showArea/hello")("查看运动装备的分区")
+
   private val startService = new NumOnServer()
 
   private val StartButton = button("开启爬虫").render
@@ -43,6 +45,7 @@ object StartPage extends Component[Div]{
     div(
       title,
       content,
+      showArea,
       StartButton.render,
       LookNumButton,
       stopButton,

@@ -17,6 +17,11 @@ object Routes {
     val lookNumRoot = startRoot + "/lookNum"
     val stopRoot = startRoot + "/stop"
   }
+  object ShowArea{
+    val showRoute = baseUrl + "/showArea"
+    val sportEquiRoute = showRoute + "/showSportEqui"
+    val postInfo = showRoute + "/getPostInfo"
+  }
 
 
 

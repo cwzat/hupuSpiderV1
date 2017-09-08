@@ -17,7 +17,9 @@ case class GetAreaPostUrlContentTrans(cur:String) extends ActorMessages
 
 case class GetAreaPostUrlCommentTrans(cur:String) extends ActorMessages
 
+case class UpdateComTrans(boardName:String,areaName:String,count:String)extends ActorMessages
 
+case class UpdateComDoTrans(boardName:String,areaName:String,url:String) extends ActorMessages
 case class Task (url:String) extends ActorMessages
 
 case class TalkGetContentOrComment(url:String, boardName:String, areaName:String,state:String,id:String) extends ActorMessages

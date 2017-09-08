@@ -2,6 +2,7 @@ package com.neo.sk.hupuSpider.models.Dao
 
 import com.neo.sk.hupuSpider.models.SlickTables
 import com.neo.sk.hupuSpider.models.SlickTables._
+import com.neo.sk.hupuSpider.service.GetAreaPostUrl
 import slick.jdbc.PostgresProfile.api._
 import com.neo.sk.utils.DBUtil.db
 /**
@@ -33,4 +34,22 @@ object commentTableDao {
   def lengthComment() = db.run{
     tCommenttable.length.result
   }
+  def getAreaComment(board:String,subarea:String) = db.run{
+    tCommenttable.filter(_.boardname === board).
+      filter(_.areaname === subarea).
+      map( r => (r.posturl,
+        r.commentcontent,
+        r.commentfloor,
+        r.commentername,
+        r.replyfloor)).
+      result
+  }
+  def getAreaComPs(board:String,areaName:String) = db.run(
+    tPosttable.filter(_.board === board).
+      filter(_.subarea === areaName).
+      map(_.posturl).
+      result
+
+  )
+
 }

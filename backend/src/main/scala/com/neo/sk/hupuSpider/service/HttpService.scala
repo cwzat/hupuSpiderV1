@@ -15,7 +15,8 @@ import scala.concurrent.ExecutionContextExecutor
   */
 trait HttpService extends ResourceService
 
-                    with StartService{
+                    with StartService
+                    with ShowSportEquiService {
 
 
   implicit val system: ActorSystem
@@ -29,7 +30,7 @@ trait HttpService extends ResourceService
 
   val routes: Route =
     pathPrefix("hupuSpider") {
-      resourceRoutes ~ numRouter
+      resourceRoutes ~ numRouter ~ showAreaRouter
     }
 
 

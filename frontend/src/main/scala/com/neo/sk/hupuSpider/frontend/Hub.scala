@@ -64,6 +64,10 @@ object Hub extends js.JSApp {
           case "hello" => StartPage.render()
           case x => todo(s"start match error: ${paths.mkString("/")}")
         }
+        case "showArea" => paths(1) match {
+          case "hello" => ShowSportEqui.render()
+          case x => todo(s"start match error: ${paths.mkString("/")}")
+        }
         case x => todo(s"paths(0) match error: ${paths(0)}")
       }
     }

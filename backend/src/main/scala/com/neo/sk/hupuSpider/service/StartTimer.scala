@@ -35,6 +35,6 @@ class StartTimer extends Actor{
       isStop = 0
     }
 
-    context.system.scheduler.schedule(0.3.seconds,10800.seconds,tmp,r)
+    context.system.scheduler.schedule(0.3.seconds,7200.seconds,tmp,r)
   }
 }
