@@ -51,11 +51,11 @@ class GetAreaPostUrl extends Actor {
       boardName = board
       try {
         val tmp = l.split("\\*\\*\\*")
-        areaName = tmp(0)
+        areaName = tmp(1)
       }
       catch {
-        case e:Exception =>
-          logger.info("拿分区失败"+board)
+        case e: Exception =>
+          logger.info("拿分区失败" + board)
       }
       stateReq = state
       getAreaPostUrlFun(GetAreaPostUrlTrans(l, board, childCount, state))
@@ -75,11 +75,11 @@ class GetAreaPostUrl extends Actor {
 
       searchMaxId(boardName, areaName).onComplete {
         case Success(r) =>
-          try{
+          try {
             maxPostId = r.get
           }
           catch {
-            case e:Exception =>
+            case e: Exception =>
           }
         case Failure(e) =>
           logger.info("获取帖子最大编码失败" + e)
@@ -123,12 +123,12 @@ class GetAreaPostUrl extends Actor {
           while (postUrlQueue.nonEmpty) {
             val h = postUrlQueue.dequeue() // 帖子的url
             val tmp = context.child("GetPostInfo" + s"$getPostContentID").getOrElse {
-//              Count.c += 1
-//              println("c================",Count.c)
+              //              Count.c += 1
+              //              println("c================",Count.c)
               context.actorOf(Props[GetPostInfo], name = "GetPostInfo" + s"$getPostContentID")
             } ! TalkGetContentOrComment(h, boardName, areaName, stateReq, getPostContentID)
-//            context.system.scheduler.schedule(0.5.seconds,5.seconds,tmp,
-//              TalkGetContentOrComment(h, boardName, areaName, stateReq, getPostContentID))
+            //            context.system.scheduler.schedule(0.5.seconds,5.seconds,tmp,
+            //              TalkGetContentOrComment(h, boardName, areaName, stateReq, getPostContentID))
             //Thread.sleep(1000)
           }
 
@@ -170,42 +170,44 @@ class GetAreaPostUrl extends Actor {
         }
         else {
           //当前页面还有帖子可以写入
-          println("该分区还没全部写完" + boardName + "-" + "areaName" + curAreaUrl)
+          //println("该分区还没全部写完" + boardName + "-" + "areaName" + curAreaUrl)
           for (j <- 1 until doc.select("#ajaxtable > div.show-list > ul > li > div.titlelink.box").length) {
             val i = doc.select("#ajaxtable > div.show-list > ul > li > div.titlelink.box")(j)
             val postUrl = "https://bbs.hupu.com" + i.select("a").last().attr("href") //拿到的是每个帖子的url
-            postUrlQueue += postUrl
+            val pattern = "(https:\\/\\/bbs.hupu.com\\/[0-9]+?)(-[0-9]+)?.html".r
+            val trueUrl = pattern.findFirstMatchIn(postUrl) match {
+              case Some(r) =>
+                r.group(1) + ".html"
+              case None =>
+                ""
+            }
+            postUrlQueue += trueUrl
           } //写的是当前页面的所有帖子的url 队列保存的是当前分区页面的帖子的url
           while (postUrlQueue.nonEmpty) {
             val h = postUrlQueue.dequeue()
+            //logger.info("hhhhhhhhhhhhhhhh"+h)
             // 帖子的url
-            val pattern = "https:\\/\\/bbs\\.hupu\\.com\\/([0-9]+).html".r
-            var curId = maxPostId
-            try{
-              val result = pattern.findFirstMatchIn(h)
-              val tmp = result.get
-              curId = tmp.group(1).toString.toLong
-              //if (curId > maxPostId) {
-              //logger.info("最新帖子" + " " + boardName + " " + areaName + " " + h)
-              val tmpT = context.child("GetPostInfo" + s"$getPostContentID").getOrElse {
-//                Count.c += 1
-//                println("c================",Count.c)
-                context.actorOf(Props[GetPostInfo], name = "GetPostInfo" + s"$getPostContentID")
-              } ! TalkGetContentOrComment(h, boardName, areaName, stateReq, getPostContentID)
-              //}
-              //            else {
-              //              postUrlQueue.clear()
-              //              isIncrease = 1 //更新的已经更新完了  可以停止了
-              //              //context.stop(self)
-              //
-              //            }
-              //Thread.sleep(1000)
-            }
-            catch {
-              case e:Exception =>
-               println("拿帖子的url失败" + h)
-            }
+            //            val pattern = "https:\\/\\/bbs\\.hupu\\.com\\/([0-9]+).html".r
+            //            val curId = pattern.findFirstMatchIn(h) match {
+            //              case Some(r) =>
+            //                r.group(1).toString
+            //              case None =>
+            //                logger.info("拿帖子的url 失败" + h)
+            //                ""
+            //            }
 
+            //if (curId > maxPostId) {
+            //logger.info("最新帖子" + " " + boardName + " " + areaName + " " + h)
+            val tmpT = context.child("GetPostInfo" + s"$getPostContentID").getOrElse {
+              context.actorOf(Props[GetPostInfo], name = "GetPostInfo" + s"$getPostContentID")
+            } ! TalkGetContentOrComment(h, boardName, areaName, stateReq, getPostContentID)
+            //}
+            //            else {
+            //              postUrlQueue.clear()
+            //              isIncrease = 1 //更新的已经更新完了  可以停止了
+            //              //context.stop(self)
+            //
+            //            }
 
 
           }
@@ -218,7 +220,8 @@ class GetAreaPostUrl extends Actor {
             page += 1
             val nextpage = page.toString
             val nextAreaUrl = pre + nextpage
-            context.self ! GetAreaPostUrlContentTrans(nextAreaUrl)
+            if(page <= 10)
+              context.self ! GetAreaPostUrlContentTrans(nextAreaUrl)
           }
         }
 

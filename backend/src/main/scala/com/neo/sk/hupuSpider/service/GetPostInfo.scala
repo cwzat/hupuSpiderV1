@@ -30,6 +30,7 @@ import scala.util.{Failure, Success}
 import scala.concurrent.duration._
 import com.neo.sk.hupuSpider.common.AppSettings.taskDelay
 import com.neo.sk.hupuSpider.service.transformTool._
+
 /**
   * Created by cwz on 2017/8/21.
   */
@@ -46,7 +47,7 @@ class GetPostInfo extends Actor {
 
   def receive = {
     case r: TalkGetContentOrComment =>
-      if(isReceive==1){
+      if (isReceive == 1) {
         postUrl = r.url
         boardName = r.boardName
         areaName = r.areaName
@@ -68,14 +69,14 @@ class GetPostInfo extends Actor {
     }
     catch {
       case e: Exception => e.printStackTrace
-        //logger.error("连接帖子失败" + s"$postUrl")
+      //logger.error("连接帖子失败" + s"$postUrl")
     }
 
     state match {
       case "comment" =>
-      //爬评论
+        //爬评论
         var incCom = 0
-        postTableDao.getTime(postUrl).onComplete{
+        postTableDao.getTime(postUrl).onComplete {
           case Failure(e) =>
             println("拿帖子对应的时间失败")
           case Success(r) =>
@@ -87,54 +88,54 @@ class GetPostInfo extends Actor {
             }
             catch {
               case e: Exception =>
-                //logger.info("拿帖子发布的时间正则失败")
+              //logger.info("拿帖子发布的时间正则失败")
             }
-            if( postDay > yesDay ){
+            if (postDay > yesDay) {
               val pattern = "https:\\/\\/bbs\\.hupu\\.com\\/([0-9]+)\\.html".r
               var postId = "0"
-              try{
+              try {
                 val result = pattern.findFirstMatchIn(postUrl)
                 val tmp = result.get
-                postId = tmp.group(1)//"https://bbs.hupu.com/20029186"
+                postId = tmp.group(1) //"https://bbs.hupu.com/20029186"
               }
               catch {
                 case e: Exception =>
-                  //logger.info("拿帖子的编号失败")
+                //logger.info("拿帖子的编号失败")
               }
               if (doc.select("div[class=page]").select("a").size() == 0) {
                 //帖子只有一页
-                context.child("GetPostComment" + s"$postId" ) getOrElse {
-                  context.actorOf(Props[GetPostComment], name = "GetPostComment" + s"$postId" )
-                } ! GetPostEachPge(postUrl,incCom,boardName,areaName)
-//                context.system.scheduler.schedule(1.second,2.seconds,tmp,
-//                  )
+                context.child("GetPostComment" + s"$postId") getOrElse {
+                  context.actorOf(Props[GetPostComment], name = "GetPostComment" + s"$postId")
+                } ! GetPostEachPge(postUrl, incCom, boardName, areaName)
+                //                context.system.scheduler.schedule(1.second,2.seconds,tmp,
+                //                  )
 
               }
               else {
                 val len = doc.getElementsByClass("page").select("a").length
                 maxPage = doc.getElementsByClass("page").select("a").get(len - 2).text().toInt
                 var idx = maxPage
-                while (idx >= 2){
-                  var curPage = "https://bbs.hupu.com/" +postId + "-" + s"$idx" +".html"
-                  val tmp = context.child("GetPostComment" + s"$postId" ) getOrElse {
-//                    Count.c += 1
-//                    println("c================",Count.c)
-                    context.actorOf(Props[GetPostComment], name = "GetPostComment" + s"$postId" )
-                  } ! GetPostEachPge(curPage,incCom,boardName,areaName)
-//                  context.system.scheduler.schedule(1.second,2.seconds,tmp,
-//                   GetPostEachPge(curPage,incCom,boardName,areaName))
+                while (idx >= 2) {
+                  var curPage = "https://bbs.hupu.com/" + postId + "-" + s"$idx" + ".html"
+                  val tmp = context.child("GetPostComment" + s"$postId") getOrElse {
+                    //                    Count.c += 1
+                    //                    println("c================",Count.c)
+                    context.actorOf(Props[GetPostComment], name = "GetPostComment" + s"$postId")
+                  } ! GetPostEachPge(curPage, incCom, boardName, areaName)
+                  //                  context.system.scheduler.schedule(1.second,2.seconds,tmp,
+                  //                   GetPostEachPge(curPage,incCom,boardName,areaName))
                   idx -= 1
                   //Thread.sleep(1000)
                 }
-                context.child("GetPostComment" + s"$postId" ) getOrElse {
-//                  Count.c += 1
-//                  println("c================",Count.c)
-                  context.actorOf(Props[GetPostComment], name = "GetPostComment" + s"$postId" )
-                } ! GetPostEachPge(postUrl,incCom,boardName,areaName)
+                context.child("GetPostComment" + s"$postId") getOrElse {
+                  //                  Count.c += 1
+                  //                  println("c================",Count.c)
+                  context.actorOf(Props[GetPostComment], name = "GetPostComment" + s"$postId")
+                } ! GetPostEachPge(postUrl, incCom, boardName, areaName)
               }
 
             }
-            else{
+            else {
               isReceive = 0
             }
 
@@ -155,44 +156,40 @@ class GetPostInfo extends Actor {
     val board = boardName
     val subarea = areaName
 
-    val pattern = "https:\\/\\/bbs\\.hupu\\.com\\/([0-9]+).html".r
-    try{
-      val result = pattern.findFirstMatchIn(postUrl).get
-      val id = result.group(1).toLong
-      var postTitle = doc.title()
-      var authorInfo = doc.select("div[class=author]").select("div[class=left]")
-      var authorName = "unknowName"
-      var authorUrl = "unknowUrl"
-      var time = ""
-      if (authorInfo.size() != 0) {
-        val author = authorInfo.first()
-        authorUrl = author.select("a").attr("href")
-        authorName = author.select("a[class=u]").text()
-        time = author.select("span[class=stime]").text()
-      }
-      var content = postTitle
-      try{
-        val tmp =  doc.select("div[class=quote-content]")
-        content = tmp.first().text()
-      }
-      catch {
-        case e:Exception =>
-      }
-
-      postTableDao.insert(board, subarea, id,
-        postUrl, postTitle, authorName,
-        authorUrl, content, time).onComplete{
-        case Failure(e) =>
-        case Success(r) =>
-          Count.postLength += 1
-      }
-    }
-    catch {
-      case e:Exception =>
-
+    val pattern = "https:\\/\\/bbs.hupu.com\\/([0-9]+?)(-[0-9]+)?.html".r
+    val id = pattern.findFirstMatchIn(postUrl) match {
+      case Some(r) =>
+        r.group(1).toLong
+      case None =>
+        0.toLong
     }
 
-
+    val postTitle = doc.title()
+    val authorInfo = doc.select("div[class=author]").select("div[class=left]")
+    var authorName = "unknowName"
+    var authorUrl = "unknowUrl"
+    var time = ""
+    if (authorInfo.size() != 0) {
+      val author = authorInfo.first()
+      authorUrl = author.select("a").attr("href")
+      authorName = author.select("a[class=u]").text()
+      time = author.select("span[class=stime]").text()
+    }
+    val content = doc.select("div[class=quote-content]").size() match {
+      case 0 =>
+        postTitle
+      case _ =>
+        doc.select("div[class=quote-content]").first().text()
+    }
+    postTableDao.insert(board, subarea, id,
+      postUrl, postTitle, authorName,
+      authorUrl, content, time).onComplete {
+      case Failure(e) =>
+      case Success(r) =>
+        println(board, subarea, id,
+          postUrl, postTitle, authorName,
+          authorUrl, content, time)
+    }
 
   }
 

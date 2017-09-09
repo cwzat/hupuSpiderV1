@@ -1,0 +1,13 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/sjsout/frontend-fastopt.js,/Users/cwz/Documents/scala/hupuSpider/backend/target/scala-2.12/classes/sjsout/frontend-fastopt.js)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/sjsout/frontend-fastopt.js.map,/Users/cwz/Documents/scala/hupuSpider/backend/target/scala-2.12/classes/sjsout/frontend-fastopt.js.map)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/frontend-launcher.js,/Users/cwz/Documents/scala/hupuSpider/backend/target/scala-2.12/classes/frontend-launcher.js)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/sjsout/frontend-jsdeps.js,/Users/cwz/Documents/scala/hupuSpider/backend/target/scala-2.12/classes/sjsout/frontend-jsdeps.js)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/backend/src/main/resources/application.conf,/Users/cwz/Documents/scala/hupuSpider/backend/target/scala-2.12/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/backend/src/main/resources/html,/Users/cwz/Documents/scala/hupuSpider/backend/target/scala-2.12/classes/html)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/backend/src/main/resources/js,/Users/cwz/Documents/scala/hupuSpider/backend/target/scala-2.12/classes/js)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/backend/src/main/resources/logback.xml,/Users/cwz/Documents/scala/hupuSpider/backend/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/backend/src/main/resources/sql,/Users/cwz/Documents/scala/hupuSpider/backend/target/scala-2.12/classes/sql)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/backend/src/main/resources/html/index.html,/Users/cwz/Documents/scala/hupuSpider/backend/target/scala-2.12/classes/html/index.html)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/backend/src/main/resources/js/fetch.min.js,/Users/cwz/Documents/scala/hupuSpider/backend/target/scala-2.12/classes/js/fetch.min.js)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/backend/src/main/resources/sql/1.sql,/Users/cwz/Documents/scala/hupuSpider/backend/target/scala-2.12/classes/sql/1.sql)[0m

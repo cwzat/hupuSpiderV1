@@ -34,19 +34,26 @@ class GetArea extends Actor{
 //    val tmp = lines.toList.head
     for( l <- lines ){
       i += 1
-      var childCount = boardCount+"-"+i.toString
+      val childCount = boardCount+"-"+i.toString
       val areaName = l.split("\\*\\*\\*").length match {
         case 2 =>
           l.split("\\*\\*\\*")(1)
-        case _=>
-          println("lllllllllllllllllllllllll")
-          board
-      }
-      val getAreaPostUrlCom = context.actorOf(Props[UpdateCom],name =  "UpdateCom" +s"$childCount")
-      getAreaPostUrlCom ! UpdateComTrans(board,areaName,childCount)
 
-//      val getAreaPostUrlCon = context.actorOf(Props[GetAreaPostUrl],name =  "getAreaPostUrlContent" +s"$childCount")
-//      getAreaPostUrlCon ! GetAreaPostUrlTrans(l,board,childCount,"content")
+        case _ =>
+          "123"
+
+      }
+      //单独更新评论
+      if(l != null && areaName != "123"){
+        val getAreaPostUrlCom = context.actorOf(Props[UpdateCom],name =  "UpdateCom" +s"$childCount")
+        getAreaPostUrlCom ! UpdateComTrans(board,areaName,childCount)
+      }
+//
+//      if(l != null && areaName != "123"){
+//        val getAreaPostUrlCon = context.actorOf(Props[GetAreaPostUrl],name =  "getAreaPostUrlContent" +s"$childCount")
+//        getAreaPostUrlCon ! GetAreaPostUrlTrans(l,board,childCount,"content")
+//      }
+
 //      val getAreaPostUrlCom = context.actorOf(Props[GetAreaPostUrl],name =  "getAreaPostUrlComment" +s"$childCount")
 //      getAreaPostUrlCom ! GetAreaPostUrlTrans(l,board,childCount,"comment")
 

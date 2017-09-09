@@ -6,8 +6,7 @@ import akka.event.{Logging, LoggingAdapter}
 import akka.http.scaladsl.Http
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
-import com.neo.sk.hupuSpider.service.transformTool.StartStopRequireTrans
-import com.neo.sk.hupuSpider.service.{GetArea, HttpService, StartTimer}
+import com.neo.sk.hupuSpider.service.{HttpService, StartTimer}
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success}
@@ -20,8 +19,9 @@ import scala.util.{Failure, Success}
 object Boot extends HttpService {
 
 
-  import concurrent.duration._
   import com.neo.sk.hupuSpider.common.AppSettings._
+
+  import concurrent.duration._
 
 
   override implicit val system = ActorSystem("helloSystem", config)

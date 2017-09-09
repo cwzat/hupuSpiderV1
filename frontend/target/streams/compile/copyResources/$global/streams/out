@@ -1,0 +1,15 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/src/main/resources/css,/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/classes/css)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/src/main/resources/index-dev.html,/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/classes/index-dev.html)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/src/main/resources/js,/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/classes/js)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/src/main/resources/css/grids-responsive-min.css,/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/classes/css/grids-responsive-min.css)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/src/main/resources/css/grids-responsive-old-ie-min.css,/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/classes/css/grids-responsive-old-ie-min.css)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/src/main/resources/css/grids-responsive-old-ie.css,/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/classes/css/grids-responsive-old-ie.css)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/src/main/resources/css/grids-responsive.css,/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/classes/css/grids-responsive.css)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/src/main/resources/css/pure-min.css,/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/classes/css/pure-min.css)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/src/main/resources/css/weui.min.css,/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/classes/css/weui.min.css)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/src/main/resources/js/Chart.bundle.js,/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/classes/js/Chart.bundle.js)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/src/main/resources/js/Chart.bundle.min.js,/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/classes/js/Chart.bundle.min.js)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/src/main/resources/js/Chart.js,/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/classes/js/Chart.js)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/src/main/resources/js/Chart.min.js,/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/classes/js/Chart.min.js)[0m
+[0m[[0mdebug[0m] [0m	(/Users/cwz/Documents/scala/hupuSpider/frontend/src/main/resources/js/fetch.min.js,/Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/classes/js/fetch.min.js)[0m
