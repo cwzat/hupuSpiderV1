@@ -90,8 +90,9 @@ class UpdateCom extends Actor {
             if(maxPage!=1) {
               getComment(doc,url,areaName,boardName)
               for(idx <- 2 to maxPage){
-                val up = context.child("UpdateComDo" + s"$idx").getOrElse(
-                  context.actorOf(Props[UpdateComDo], name = "UpdateComDo" + s"$idx")
+                val count = idx % 10
+                val up = context.child("UpdateComDo" + s"$count").getOrElse(
+                  context.actorOf(Props[UpdateComDo], name = "UpdateComDo" + s"$count")
                 )
                 val nextUrl = "https://bbs.hupu.com/"+ postId + "-" + idx + ".html"
                 context.system.scheduler.scheduleOnce(3.seconds, up, UpdateComDoTrans(boardName, areaName, nextUrl))

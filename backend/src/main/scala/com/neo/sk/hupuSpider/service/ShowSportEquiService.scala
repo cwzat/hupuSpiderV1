@@ -3,6 +3,7 @@ package com.neo.sk.hupuSpider.service
 /**
   * Created by cwz on 2017/9/6.
   */
+
 import java.text.{DateFormat, SimpleDateFormat}
 import java.util.Date
 
@@ -27,44 +28,91 @@ object ShowSportEquiService {
 
 }
 
-trait ShowSportEquiService extends CirceSupport with ServiceUtils{
+trait ShowSportEquiService extends CirceSupport with ServiceUtils {
+
   import com.neo.sk.hupuSpider.ptcl
   import ShowSportEquiService.log
   import io.circe.generic.auto._
   import io.circe._
-  import com.neo.sk.hupuSpider.Boot.{system,startOrStop}
+  import com.neo.sk.hupuSpider.Boot.{system, startOrStop}
   import scala.concurrent.duration._
 
 
   val showAreaRouter = pathPrefix("showArea") {
-    (path("hello") & get){
+    (path("hello") & get) {
       getFromResource("html/index.html")
-    } ~ (path("postInfo") & get){
+    } ~ (path("postInfo") & get) {
       getFromResource("html/index.html")
-    } ~ (path("showSportEqui") & post) {
-            entity(as[Either[Error, ptcl.ShowAreaReq]]) {
-              case Right(p) =>{
-                val com = for{
-                  post <- postTableDao.getAreaPostInfo("运动装备","运动装备")
-                  comm <- commentTableDao.getAreaComment("运动装备","运动装备")
-                } yield {
-                  complete(ptcl.ShowAreaRsp(post,comm))
-                }
-                dealFutureResult(com)
-              }
-              case Left(error) =>
-                log.warn(s"some error: $error")
-                complete(ptcl.ErrorRsp(1, s"error: $error"))
-
+    } ~
+      (path("sportEqui") & post) {
+        //运动装备
+        entity(as[Either[Error, ptcl.ShowAreaReq]]) {
+          case Right(p) => {
+            val now1 = new Date()
+            val df1 = DateFormat.getDateTimeInstance()
+            println("请求后台sportEqui发送area"+ df1.format(now1))
+            val com = for {
+              length <- postTableDao.getAreaPostLength("运动装备", "运动装备")
+              post <- postTableDao.getAreaPostInfo("运动装备", "运动装备")
+            } yield {
+              complete(ptcl.ShowAreaRsp(post.reverse,length))
             }
-    } ~ (path("getPostInfo") & post){
+            dealFutureResult(com)
+          }
+          case Left(error) =>
+            log.warn(s"some error: $error")
+            complete(ptcl.ErrorRsp(1, s"error: $error"))
+
+        }
+      } ~ (path("shoppingGoods") & post) {
       entity(as[Either[Error, ptcl.ShowAreaReq]]) {
-        case Right(p) =>{
-          val com = for{
-            post <- postTableDao.getAreaPostInfo("运动装备","运动装备")
-            comm <- commentTableDao.getAreaComment("运动装备","运动装备")
+        case Right(p) => {
+          val now1 = new Date()
+          val df1 = DateFormat.getDateTimeInstance()
+          println("请求后台shoppinggoogs发送area"+ df1.format(now1))
+          val com = for {
+            length <- postTableDao.getAreaPostLength("运动装备", "交易区(新品)")
+            post <- postTableDao.getAreaPostInfo("运动装备", "交易区(新品)")
           } yield {
-            complete(ptcl.ShowAreaRsp(post,comm))
+            complete(ptcl.ShowAreaRsp(post.reverse,length))
+          }
+          dealFutureResult(com)
+        }
+        case Left(error) =>
+          log.warn(s"some error: $error")
+          complete(ptcl.ErrorRsp(1, s"error: $error"))
+
+      }
+    }~ (path("buxingjie") & post) {
+      entity(as[Either[Error, ptcl.ShowAreaReq]]) {
+        case Right(p) => {
+          val now1 = new Date()
+          val df1 = DateFormat.getDateTimeInstance()
+          println("请求后台buxingjie发送area"+ df1.format(now1))
+          val com = for {
+            length <- postTableDao.getAreaPostLength("步行街", "步行街主干道")
+            post <- postTableDao.getAreaPostInfo("步行街", "步行街主干道")
+          } yield {
+            complete(ptcl.ShowAreaRsp(post.reverse,length))
+          }
+          dealFutureResult(com)
+        }
+        case Left(error) =>
+          log.warn(s"some error: $error")
+          complete(ptcl.ErrorRsp(1, s"error: $error"))
+
+      }
+    }~ (path("shihuhu") & post) {
+      entity(as[Either[Error, ptcl.ShowAreaReq]]) {
+        case Right(p) => {
+          val now1 = new Date()
+          val df1 = DateFormat.getDateTimeInstance()
+          println("请求后台shiuhu发送area"+ df1.format(now1))
+          val com = for {
+            length <- postTableDao.getAreaPostLength("NBA论坛", "湿乎乎的话题")
+            post <- postTableDao.getAreaPostInfo("NBA论坛", "湿乎乎的话题")
+          } yield {
+            complete(ptcl.ShowAreaRsp(post.reverse,length))
           }
           dealFutureResult(com)
         }

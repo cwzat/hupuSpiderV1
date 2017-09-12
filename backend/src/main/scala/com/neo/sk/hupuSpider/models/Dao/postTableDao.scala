@@ -51,14 +51,27 @@ object postTableDao {
   }
   def getAreaPostInfo(board:String,subarea:String) = db.run{
    tPosttable.filter(_.board === board).
-      filter(_.subarea === subarea).
+      filter(_.subarea === subarea).sortBy(_.time).
       map(r => (r.posttitle ,r.content, r.posturl ,r.authorname ,r.authorurl , r.time)).
-      result
+     result
+
+  }
+  def getAreaPostLength(board:String,subarea:String) = db.run{
+    tPosttable.filter(_.board === board).
+      filter(_.subarea === subarea).length.result
   }
   def getAreaConPs(board:String,areaName:String) = db.run(
     tPosttable.filter(_.board === board).
       filter(_.subarea === areaName).
       map(_.posturl).
+      result
+  )
+  def getRange(board:String,subarea:String,start:Int,offset:Int) = db.run(
+    tPosttable.filter(_.board === board).
+      filter(_.subarea === subarea).sortBy(_.time).
+      map(r => (r.posttitle ,r.content, r.posturl ,r.authorname ,r.authorurl , r.time)).
+      take(start+offset).
+      drop(start-1).
       result
   )
 }

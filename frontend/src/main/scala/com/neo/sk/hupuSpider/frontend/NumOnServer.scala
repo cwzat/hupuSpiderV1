@@ -17,6 +17,7 @@ import com.github.nscala_time.time.Imports._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.scalajs.js.Date
 import scalatags.JsDom.short._
+import com.neo.sk.hupuSpider.frontend.StartPage._
 class NumOnServer extends Component[Div]{
   private var tmpStart = div().render
   private var tmpLookNum = div().render
@@ -32,28 +33,26 @@ class NumOnServer extends Component[Div]{
         //后台返回的处理
         if(rsp.errCode == 0) {
           println("爬虫已经开始")
-          val postLength = p("主贴之前的数目是"+rsp.lengthPost).render
-          val commentLength = p("回帖之前的数目是"+rsp.lengthComment).render
-          val total = rsp.lengthComment + rsp.lengthPost
-          val totalLength = p("总计"+total).render
+          val preNum1 = p(
+            a(*.href := "#" ,*.`class` :="list-group-item active")("现有数目统计"),
+            a(*.`class` := "list-group-item",*.href := "#")(
+              span(*.`class` := "badge")(rsp.lengthPost)
+            )("主贴"),
+            a(*.`class` := "list-group-item",*.href := "#")(
+              span(*.`class` := "badge")(rsp.lengthComment)
+            )("回帖"),
+            a(*.`class` := "list-group-item",*.href := "#")(
+              span(*.`class` := "badge")(rsp.lengthPost +rsp.lengthComment)
+            )("共计")
 
-//          val postLengthL = h2("主贴现在的数目是"+rsp.lengthPost).render
-//          val commentLengthL = h2("回帖现在的数目是"+rsp.lengthComment).render
-//          val totalL = rsp.lengthComment + rsp.lengthPost
-//          val totalLengthL = h2("总计"+totalL).render
+          ).render
+          StartPage.preNum.innerHTML = ""
+          StartPage.preNum.appendChild(
+            preNum1.render
+          )
 
-          state.innerHTML = ""
-          state.appendChild(p("工作中").render)
-          tmpStart.innerHTML = ""
-          tmpStart.appendChild(postLength)
-          tmpStart.appendChild(commentLength)
-          tmpStart.appendChild(totalLength)
-          tmpLookNum.innerHTML = ""
+          StartPage.preNum.style.visibility = "visible"
 
-//          tmpLookNum.innerHTML = ""
-//          tmpLookNum.appendChild(postLengthL)
-//          tmpLookNum.appendChild(commentLengthL)
-//          tmpLookNum.appendChild(totalLengthL)
           val now2 = new Date().toTimeString()
           println("数据返回start"+ now2)
 
@@ -77,15 +76,26 @@ class NumOnServer extends Component[Div]{
           val now2 = new Date().toTimeString()
 
           println("数据返回Num"+ now2)
+          val nowNum1 = p(
+            a(*.href := "#" ,*.`class` :="list-group-item active")("最新数目统计"),
+            a(*.`class` := "list-group-item",*.href := "#")(
+              span(*.`class` := "badge")(rsp.lengthPost)
+            )("主贴"),
+            a(*.`class` := "list-group-item",*.href := "#")(
+              span(*.`class` := "badge")(rsp.lengthComment)
+            )("回帖"),
+            a(*.`class` := "list-group-item",*.href := "#")(
+              span(*.`class` := "badge")(rsp.lengthPost +rsp.lengthComment)
+            )("共计")
 
-          val postLength = p("主贴现在的数目是"+rsp.lengthPost).render
-          val commentLength = p("回帖现在的数目是"+rsp.lengthComment).render
-          val total = rsp.lengthComment + rsp.lengthPost
-          val totalLength = p("总计"+total).render
-          tmpLookNum.innerHTML = ""
-          tmpLookNum.appendChild(postLength)
-          tmpLookNum.appendChild(commentLength)
-          tmpLookNum.appendChild(totalLength)
+          ).render
+          StartPage.nowNum.innerHTML = ""
+          StartPage.nowNum.appendChild(
+            nowNum1.render
+          )
+
+          StartPage.nowNum.style.visibility = "visible"
+
 
         } else {
           JsFunc.alert(s"error: ${rsp.msg}")
@@ -116,9 +126,10 @@ class NumOnServer extends Component[Div]{
   override def render(): Div = {
 
     div(
-      state,
-    tmpStart,
-      tmpLookNum
+//      state,
+//    tmpStart,
+//      tmpLookNum,
+//      StartPage.postNum
     ).render
   }
 

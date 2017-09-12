@@ -19,8 +19,10 @@ object Routes {
   }
   object ShowArea{
     val showRoute = baseUrl + "/showArea"
-    val sportEquiRoute = showRoute + "/showSportEqui"
-    val postInfo = showRoute + "/getPostInfo"
+    val sportEquiRoute = showRoute + "/sportEqui"
+    val shoppingGoodsRoute = showRoute + "/shoppingGoods"
+    val buxingjieRoute = showRoute + "/buxingjie"
+    val shihuhuRoute = showRoute + "/shihuhu"
   }
 
 

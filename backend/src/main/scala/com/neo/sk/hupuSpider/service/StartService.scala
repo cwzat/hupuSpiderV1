@@ -50,7 +50,7 @@ trait StartService extends CirceSupport with ServiceUtils{
             Count.commentLength = commentL
             complete(ptcl.NumRsp(postL,commentL))
           }
-          system.scheduler.scheduleOnce(1.5.seconds,startOrStop,StartStopRequireTrans("start"))
+//          system.scheduler.scheduleOnce(8.seconds,startOrStop,StartStopRequireTrans("start"))
 //          context.system.scheduler.schedule(0 second,10800.seconds,tmp,r)
 //          start ! StartRequireTrans("start")
           dealFutureResult(com)
@@ -65,7 +65,7 @@ trait StartService extends CirceSupport with ServiceUtils{
         case Right(p) =>{
           val now1 = new Date()
           val df1 = DateFormat.getDateTimeInstance()
-          log.error("请求收到Num"+ df1.format(now1))
+          log.error("请求收到area"+ df1.format(now1))
           val pl = Count.postLength
           val cl = Count.commentLength
           complete(ptcl.NumRsp(pl,cl))

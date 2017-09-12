@@ -7455,3 +7455,1841 @@ java.lang.NumberFormatException: For input string: "tpc"
 17-09-09 23:41:57 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
 17-09-09 23:41:57 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
 17-09-09 23:41:57 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-10 00:09:24 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m25s745ms).
+17-09-10 05:07:38 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h58m14s576ms).
+17-09-10 05:54:02 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m23s671ms).
+17-09-10 06:10:00 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m28s561ms).
+17-09-10 08:10:28 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s438ms).
+17-09-10 10:01:22 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h50m54s157ms).
+17-09-10 10:30:03 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m10s826ms).
+17-09-10 10:32:07 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m34s534ms).
+17-09-10 10:38:14 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m6s568ms).
+17-09-10 10:47:32 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m18s509ms).
+17-09-10 10:58:53 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m50s518ms).
+17-09-10 11:09:34 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m57s543ms).
+17-09-10 11:24:04 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m538ms).
+17-09-10 11:35:57 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m53s63ms).
+17-09-10 11:41:46 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m39s488ms).
+17-09-10 11:53:57 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m40s541ms).
+17-09-10 12:08:21 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m54s522ms).
+17-09-10 14:31:17 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h22m25s284ms).
+17-09-10 14:31:17 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 14:31:20 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 14:31:20 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 14:31:52 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:31:52
+17-09-10 14:31:53 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-10 14:31:53 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-10 14:31:54 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-10 14:31:54 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-10 14:31:57 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:31:57
+17-09-10 14:32:13 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:13
+17-09-10 14:32:15 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:15
+17-09-10 14:32:16 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:16
+17-09-10 14:32:20 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:20
+17-09-10 14:32:22 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:22
+17-09-10 14:32:23 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:23
+17-09-10 14:32:24 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:24
+17-09-10 14:32:30 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:30
+17-09-10 14:32:31 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:31
+17-09-10 14:32:32 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:32
+17-09-10 14:32:32 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:32
+17-09-10 14:32:33 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:33
+17-09-10 14:32:33 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:33
+17-09-10 14:32:35 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:35
+17-09-10 14:32:36 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:36
+17-09-10 14:32:42 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:42
+17-09-10 14:32:42 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:42
+17-09-10 14:32:43 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:43
+17-09-10 14:32:43 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:43
+17-09-10 14:32:43 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 14:32:43
+17-09-10 14:32:51 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 15:02:20 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 15:02:20 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 15:05:23 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 15:05:25 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 15:05:25 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 15:21:55 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 15:21:58 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 15:21:58 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 15:23:23 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 15:23:26 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 15:23:26 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 15:26:28 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 15:26:31 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 15:26:31 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 15:31:47 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 15:31:50 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 15:31:50 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 15:33:19 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 15:33:22 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 15:33:22 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 15:34:28 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 15:34:31 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 15:34:31 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 15:37:36 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 15:37:37 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 15:37:38 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 15:39:28 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 15:39:31 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 15:39:31 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 18:18:23 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 18:18:26 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 18:18:27 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 18:21:03 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 18:21:05 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 18:21:05 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 18:22:52 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 18:22:54 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 18:22:54 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 18:24:02 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 18:24:04 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 18:24:04 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 18:24:39 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 18:24:41 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 18:24:41 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 18:25:33 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 18:25:35 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 18:25:35 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 18:26:22 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 18:26:24 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 18:26:24 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 18:28:07 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 18:28:10 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 18:28:10 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 18:34:40 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 18:34:42 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 18:34:42 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 18:36:33 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 18:36:38 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 18:36:38 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 18:40:22 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 18:40:28 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 18:40:28 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 18:41:49 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 18:41:53 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 18:41:54 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 18:45:13 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 18:45:17 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 18:45:17 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 18:47:46 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 18:47:51 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 18:47:51 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:01:51 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:01:57 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:01:57 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:03:29 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:03:31 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:03:31 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:24:13 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:24:15 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:24:16 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:26:22 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:26:24 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:26:24 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:27:13 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:27:16 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:27:17 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:28:17 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:28:21 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:28:21 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:28:48 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:28:52 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:28:52 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:30:09 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:30:12 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:30:12 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:30:37 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:30:41 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:30:41 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:31:33 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:31:36 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:31:36 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:32:08 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:32:11 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:32:11 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:32:33 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:32:36 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:32:36 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:33:52 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:33:54 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:33:55 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:34:17 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:34:18 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:34:18 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:34:46 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:34:47 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:34:48 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:35:30 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:35:33 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:35:33 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:37:13 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:37:15 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:37:15 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:38:39 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:38:42 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:38:42 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:39:11 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:39:14 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:39:14 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:39:53 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:39:55 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:39:55 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:40:37 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:40:39 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:40:39 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:46:16 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:46:18 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:46:18 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 19:46:58 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 19:47:00 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 19:47:00 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 20:14:38 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 20:14:40 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 20:14:40 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 20:16:58 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 20:17:01 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 20:17:01 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 20:19:01 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 20:19:04 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 20:19:04 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 20:19:35 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 20:19:37 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 20:19:37 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 20:20:56 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 20:21:00 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 20:21:00 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 20:24:02 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 20:24:05 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 20:24:05 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 20:33:00 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 20:33:04 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 20:33:04 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 20:33:44 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 20:33:45 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 20:33:45 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 20:35:10 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 20:35:12 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 20:35:12 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 20:40:07 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 20:40:10 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 20:40:10 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 20:42:19 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 20:42:24 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 20:42:24 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 20:43:48 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 20:43:53 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 20:43:53 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 20:50:28 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 20:50:30 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 20:50:30 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 20:52:03 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 20:52:05 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 20:52:05 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 20:52:27 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 20:52:29 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 20:52:29 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:09:25 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:09:27 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:09:27 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:10:34 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:10:37 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:10:37 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:11:26 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:11:28 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:11:28 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:32:24 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:32:27 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:32:27 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:40:10 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:40:13 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:40:13 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:41:45 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:41:50 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:41:50 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:42:46 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:42:50 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:42:50 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:43:37 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:43:40 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:43:40 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:44:56 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:44:59 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:44:59 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:46:01 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:46:03 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:46:03 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:47:03 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:47:06 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:47:06 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:47:34 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:47:38 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:47:38 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:48:12 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:48:14 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:48:14 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:49:03 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:49:06 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:49:06 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:52:14 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:52:19 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:52:19 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:53:16 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:53:18 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:53:18 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:53:43 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:53:45 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:53:45 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:54:17 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:54:20 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:54:20 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:55:41 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:55:43 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:55:43 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:57:04 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:57:08 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:57:08 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:58:09 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:58:12 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:58:12 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 21:58:43 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 21:58:45 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 21:58:45 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 22:00:15 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-10 22:00:15 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-10 22:00:15 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-10 22:00:15 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-10 22:00:29 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 22:18:33 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 22:18:33 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 22:18:56 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-10 22:18:56 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-10 22:18:56 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-10 22:18:56 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-10 22:19:17 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 22:21:18 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 22:21:18 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 22:21:43 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-10 22:21:43 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-10 22:21:43 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-10 22:21:43 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-10 22:21:50 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 22:22:34 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 22:22:34 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 22:22:47 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-10 22:22:47 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-10 22:22:47 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-10 22:22:47 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-10 22:22:49 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 22:22:49
+17-09-10 22:23:19 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 22:23:55 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 22:23:55 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 22:24:06 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-10 22:24:06 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-10 22:24:06 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-10 22:24:06 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-10 22:24:22 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 22:27:36 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 22:27:36 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 22:27:49 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-10 22:27:50 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-10 22:27:50 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-10 22:27:50 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-10 22:28:04 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 22:30:20 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 22:30:20 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 22:30:47 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-10 22:30:47 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-10 22:30:47 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-10 22:30:47 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-10 22:31:02 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 22:31:45 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 22:31:45 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 22:31:58 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-10 22:31:58 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-10 22:31:59 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-10 22:31:59 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-10 22:32:13 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 22:44:50 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 22:44:50 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 22:46:28 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 22:46:31 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 22:46:31 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:06:29 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:06:32 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:06:32 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:07:31 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:07:33 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:07:34 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:10:05 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:10:08 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:10:08 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:10:48 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:10:51 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:10:51 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:13:41 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:13:43 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:13:43 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:14:49 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:14:52 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:14:52 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:16:44 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:16:47 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:16:47 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:17:31 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:17:35 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:17:35 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:18:07 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:18:09 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:18:10 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:18:50 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:18:52 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:18:52 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:22:01 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:22:04 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:22:04 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:22:35 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:22:37 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:22:37 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:23:07 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:23:11 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:23:11 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:23:50 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:23:52 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:23:52 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:25:10 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:25:13 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:25:13 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:25:35 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:25:36 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:25:36 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:26:12 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:26:15 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:26:15 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:27:10 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:27:11 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:27:12 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:27:55 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:27:58 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:27:58 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:28:28 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:28:29 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:28:29 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:43:48 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:43:50 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:43:50 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:47:03 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:47:05 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:47:05 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:48:16 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:48:19 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:48:19 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:48:54 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-10 23:48:55 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-10 23:48:55 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-10 23:48:55 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-10 23:49:11 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 23:49:11
+17-09-10 23:50:04 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 23:50:04
+17-09-10 23:50:10 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:52:41 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:52:41 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:53:10 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-10 23:53:11 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-10 23:53:11 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-10 23:53:11 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-10 23:53:20 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 23:53:20
+17-09-10 23:53:27 INFO akka.actor.LocalActorRef - Message [com.neo.sk.hupuSpider.service.transformTool.StartStopRequireTrans] from Actor[akka://helloSystem/user/StartTimer#-617282715] to Actor[akka://helloSystem/user/StartTimer/StartRequire#-1844588002] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+17-09-10 23:53:51 INFO akka.actor.LocalActorRef - Message [com.neo.sk.hupuSpider.service.transformTool.StartStopRequireTrans] from Actor[akka://helloSystem/user/StartTimer#-617282715] to Actor[akka://helloSystem/user/StartTimer/StartRequire#2018589655] was not delivered. [2] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+17-09-10 23:54:15 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:56:56 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:56:56 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:57:42 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-10 23:57:42 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-10 23:57:43 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-10 23:57:43 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-10 23:57:58 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 23:57:58
+17-09-10 23:58:08 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-10 23:59:00 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-10 23:59:01 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-10 23:59:16 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-10 23:59:17 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-10 23:59:17 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-10 23:59:17 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-10 23:59:21 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-10 23:59:21
+17-09-10 23:59:28 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:09:18 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:09:18 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:09:44 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:09:45 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:09:45 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:09:45 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:09:53 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 0:09:53
+17-09-11 00:10:02 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:12:18 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:12:18 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:12:34 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 0:12:34
+17-09-11 00:12:37 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:12:37 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:12:37 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:12:37 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:12:52 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:14:08 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:14:08 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:14:21 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:14:21 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:14:21 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:14:21 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:14:27 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 0:14:27
+17-09-11 00:14:40 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:15:56 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:15:56 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:16:29 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:16:29 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:16:29 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:16:29 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:16:36 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:17:59 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:17:59 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:18:11 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:18:12 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:18:12 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:18:12 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:18:24 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:23:36 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:23:36 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:23:51 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:23:52 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:23:52 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:23:52 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:24:03 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:25:29 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:25:29 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:25:43 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:25:44 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:25:44 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:25:44 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:25:53 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:28:57 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:28:57 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:29:48 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:29:49 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:29:49 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:29:49 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:30:09 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:30:21 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:30:21 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:30:44 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:30:44 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:30:44 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:30:44 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:30:53 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:33:32 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:33:32 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:33:49 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:33:49 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:33:49 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:33:49 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:34:29 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:35:09 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:35:09 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:35:41 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:35:41 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:35:41 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:35:41 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:36:02 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:37:48 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:37:48 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:38:19 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:38:20 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:38:20 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:38:20 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:38:26 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 0:38:26
+17-09-11 00:38:34 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:41:20 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:41:20 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:41:33 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:41:33 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:41:33 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:41:33 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:41:41 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 0:41:41
+17-09-11 00:41:46 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:43:08 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:43:08 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:43:23 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:43:24 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:43:24 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:43:24 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:43:29 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 0:43:29
+17-09-11 00:43:40 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:45:19 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:45:19 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:45:42 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:45:42 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:45:42 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:45:42 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:45:57 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 0:45:57
+17-09-11 00:46:07 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 0:46:07
+17-09-11 00:46:16 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:47:44 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:47:44 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:47:59 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:47:59 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:48:00 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:48:00 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:48:05 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 0:48:05
+17-09-11 00:48:17 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:50:00 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:50:00 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:50:12 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:50:12 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:50:12 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:50:12 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:50:17 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 0:50:17
+17-09-11 00:50:23 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:51:23 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:51:23 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:51:41 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:51:42 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:51:42 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:51:42 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:51:47 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 0:51:47
+17-09-11 00:51:51 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:53:29 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:53:29 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:53:47 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:53:47 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:53:47 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:53:47 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:53:53 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 0:53:53
+17-09-11 00:54:02 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:57:04 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:57:04 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:57:22 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:57:23 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:57:23 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:57:23 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 00:57:28 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 0:57:28
+17-09-11 00:57:36 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:58:22 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:58:22 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:59:31 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 00:59:36 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 00:59:36 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 00:59:47 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 00:59:47 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 00:59:47 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 00:59:47 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:00:01 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:00:42 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:00:42 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:01:01 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:01:01 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:01:02 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:01:02 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:01:06 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:01:06
+17-09-11 01:01:18 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:01:18
+17-09-11 01:01:20 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:01:20
+17-09-11 01:01:23 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:01:23
+17-09-11 01:01:23 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:01:23
+17-09-11 01:01:31 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:02:14 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:02:14 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:02:26 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:02:27 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:02:27 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:02:27 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:02:34 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:02:34
+17-09-11 01:02:35 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:02:35
+17-09-11 01:02:36 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:02:36
+17-09-11 01:02:47 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:04:46 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:04:46 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:07:00 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:07:03 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:07:03 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:07:37 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:07:37 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:07:37 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:07:37 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:07:44 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:07:44
+17-09-11 01:07:56 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:09:23 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:09:24 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:09:35 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:09:36 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:09:36 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:09:36 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:09:41 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:09:41
+17-09-11 01:09:55 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:12:43 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:12:43 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:12:59 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:12:59 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:12:59 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:12:59 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:13:04 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:13:04
+17-09-11 01:13:13 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:15:03 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:15:03 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:15:18 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:15:18 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:15:18 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:15:18 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:15:24 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:15:24
+17-09-11 01:15:32 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:16:16 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:16:16 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:17:48 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:17:49 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:17:49 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:17:49 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:17:54 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:17:54
+17-09-11 01:18:11 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:18:52 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:18:52 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:19:09 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:19:11 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:19:11 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:19:51 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:19:51 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:19:51 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:19:51 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:19:56 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:19:56
+17-09-11 01:20:17 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:20:43 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:20:43 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:21:17 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:21:17 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:21:17 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:21:17 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:21:23 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:21:23
+17-09-11 01:21:37 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:21:46 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:21:46 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:22:04 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:22:04 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:22:04 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:22:04 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:22:09 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:22:09
+17-09-11 01:22:15 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:22:46 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:22:47 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:23:08 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:23:09 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:23:09 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:23:09 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:23:15 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:23:15
+17-09-11 01:23:25 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:23:33 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:23:33 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:24:13 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:24:15 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:24:16 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:24:30 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:24:30 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:24:30 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:24:30 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:24:35 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:24:35
+17-09-11 01:24:43 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:24:43
+17-09-11 01:24:44 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:24:44
+17-09-11 01:24:44 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:24:44
+17-09-11 01:24:46 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:24:46
+17-09-11 01:24:50 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:25:24 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:25:24 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:26:08 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:26:08 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:26:09 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:26:09 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:26:13 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:26:13
+17-09-11 01:26:34 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:26:46 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:26:46 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:27:39 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:27:42 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:27:42 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:28:14 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:28:16 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:28:16 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:28:57 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:28:59 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:29:00 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:29:45 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:29:46 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:29:46 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:29:46 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:30:33 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:32:23 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:32:23 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:32:46 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:32:46 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:32:47 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:32:47 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:32:52 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:32:52
+17-09-11 01:33:03 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:33:30 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:33:30 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:33:54 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:33:56 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:33:56 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:34:19 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:34:20 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:34:20 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:34:20 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:34:26 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:34:26
+17-09-11 01:34:49 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:34:56 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:34:56 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:35:11 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:35:12 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:35:12 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:35:12 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:35:17 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:35:17
+17-09-11 01:36:21 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:36:39 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:36:39 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:37:07 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:37:08 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:37:08 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:37:08 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:37:12 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:37:12
+17-09-11 01:37:37 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:37:52 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:37:52 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:38:12 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:38:12 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:38:12 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:38:12 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:38:17 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:38:17
+17-09-11 01:38:59 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:39:03 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:39:03 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:39:20 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:39:24 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:39:24 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:41:11 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:41:13 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:41:13 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:42:25 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:42:29 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:42:29 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:43:01 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:43:05 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:43:05 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:43:35 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:43:40 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:43:40 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:43:58 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:43:59 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:43:59 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:43:59 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:44:04 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:44:04
+17-09-11 01:44:28 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:44:30 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:44:31 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:44:44 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:44:44 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:44:44 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:44:44 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:44:49 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:44:49
+17-09-11 01:45:15 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:45:20 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:45:20 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:45:39 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:45:39 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:45:39 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:45:39 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:45:43 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:45:43
+17-09-11 01:46:12 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:46:16 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:46:16 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:46:35 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:46:35 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:46:35 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:46:35 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:46:39 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:46:39
+17-09-11 01:47:38 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:47:41 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:47:41 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:49:27 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:49:29 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:49:29 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:49:42 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:49:43 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:49:43 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:49:43 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:49:48 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:49:48
+17-09-11 01:53:14 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:53:17 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:53:17 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:54:21 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:54:23 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:54:23 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:54:55 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 01:54:57 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 01:54:57 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 01:55:13 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 01:55:14 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 01:55:14 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 01:55:14 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 01:55:21 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 1:55:21
+17-09-11 01:55:37 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 08:40:19 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 08:40:19 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 08:43:32 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 08:43:36 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 08:43:36 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 08:44:57 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 08:44:58 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 08:44:58 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 08:44:58 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 08:45:05 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 8:45:05
+17-09-11 08:45:55 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 08:45:58 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 08:45:58 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 08:46:14 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 08:46:14 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 08:46:14 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 08:46:14 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 08:46:46 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 08:46:48 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 08:46:48 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 08:47:04 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 08:47:04 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 08:47:05 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 08:47:05 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 08:47:22 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 08:47:26 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 08:47:26 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 08:47:43 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 08:47:43 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 08:47:43 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 08:47:43 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 08:48:17 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 08:48:19 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 08:48:19 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 08:48:48 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 08:48:51 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 08:48:51 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 08:49:05 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 08:49:06 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 08:49:06 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 08:49:06 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 08:49:14 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 8:49:14
+17-09-11 08:49:51 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 08:49:55 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 08:49:55 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 08:50:09 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 08:50:09 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 08:50:09 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 08:50:09 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 08:50:17 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 8:50:17
+17-09-11 08:50:53 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 8:50:53
+17-09-11 08:51:20 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 08:51:22 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 08:51:23 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 08:51:35 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 08:51:35 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 08:51:36 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 08:51:36 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 08:51:49 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 08:51:51 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 08:51:51 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 08:52:06 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 08:52:07 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 08:52:07 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 08:52:07 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 08:52:15 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 8:52:15
+17-09-11 08:52:33 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 08:52:36 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 08:52:36 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 08:52:48 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 08:52:49 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 08:52:49 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 08:52:49 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 08:52:54 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 8:52:54
+17-09-11 08:57:34 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 08:57:38 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 08:57:38 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 08:57:53 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 08:57:53 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 08:57:53 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 08:57:53 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 08:58:54 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 08:58:59 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 08:58:59 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 08:59:16 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 08:59:16 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 08:59:16 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 08:59:16 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 09:00:40 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 09:00:42 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 09:00:42 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 09:00:57 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 09:00:57 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 09:00:57 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 09:00:57 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 09:01:41 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 09:01:47 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 09:01:47 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 09:02:20 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 09:02:22 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 09:02:22 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 09:02:38 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 09:02:38 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 09:02:39 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 09:02:39 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 09:06:06 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 09:06:09 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 09:06:09 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 09:06:23 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 09:06:24 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 09:06:24 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 09:06:24 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 09:18:43 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 09:18:46 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 09:18:46 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 09:20:24 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 09:20:24 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 09:20:25 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 09:20:25 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 09:23:28 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 09:23:30 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 09:23:30 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 09:23:51 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 09:23:51 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 09:23:51 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 09:23:51 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 09:30:35 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s701ms).
+17-09-11 09:41:22 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m16s597ms).
+17-09-11 09:46:39 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m17s560ms).
+17-09-11 09:53:10 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m46s515ms).
+17-09-11 09:58:20 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m10s464ms).
+17-09-11 10:07:13 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m52s480ms).
+17-09-11 10:11:07 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m40s557ms).
+17-09-11 10:16:36 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m29s429ms).
+17-09-11 10:23:30 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m54s179ms).
+17-09-11 10:31:32 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m1s478ms).
+17-09-11 10:39:06 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m50s479ms).
+17-09-11 10:42:55 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m36s431ms).
+17-09-11 10:46:18 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m23s417ms).
+17-09-11 10:53:51 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m32s520ms).
+17-09-11 10:59:23 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m32s419ms).
+17-09-11 11:00:54 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m1s492ms).
+17-09-11 12:00:57 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m32s381ms).
+17-09-11 13:57:22 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23s619ms).
+17-09-11 14:07:48 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m56s566ms).
+17-09-11 14:09:13 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m24s523ms).
+17-09-11 14:10:21 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m8s492ms).
+17-09-11 14:17:04 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m12s392ms).
+17-09-11 14:23:07 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m2s896ms).
+17-09-11 14:24:46 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m39s574ms).
+17-09-11 14:26:23 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m36s535ms).
+17-09-11 14:32:21 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 14:32:24 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 14:32:24 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 14:33:00 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 14:33:00 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 14:33:00 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 14:33:00 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 14:33:07 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 14:33:07
+17-09-11 14:41:34 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 14:41:37 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 14:41:37 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 14:42:03 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 14:42:03 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 14:42:03 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 14:42:03 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 14:42:11 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 14:42:11
+17-09-11 14:42:14 INFO akka.actor.LocalActorRef - Message [com.neo.sk.hupuSpider.service.transformTool.StartStopRequireTrans] from Actor[akka://helloSystem/user/StartTimer#-1714347000] to Actor[akka://helloSystem/user/StartTimer/StartRequire#-977635751] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+17-09-11 14:43:09 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 14:43:12 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 14:43:12 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 14:43:40 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 14:43:41 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 14:43:41 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 14:43:41 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 14:43:47 INFO akka.actor.LocalActorRef - Message [com.neo.sk.hupuSpider.service.transformTool.StartStopRequireTrans] from Actor[akka://helloSystem/user/StartTimer#-1078114437] to Actor[akka://helloSystem/user/StartTimer/StartRequire#333635533] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+17-09-11 14:43:50 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 14:43:50
+17-09-11 14:52:40 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s626ms), soft-evicting connections from pool.
+17-09-11 15:13:50 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 15:13:55 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 15:13:55 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 15:14:49 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 15:14:51 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 15:14:51 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 15:19:21 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 15:19:25 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 15:19:25 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 15:20:38 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 15:20:42 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 15:20:42 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 15:22:53 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 15:22:57 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 15:22:57 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 15:24:40 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 15:24:42 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 15:24:43 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 15:26:55 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 15:27:00 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 15:27:00 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 15:27:34 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 15:27:35 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 15:27:35 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 15:28:24 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 15:28:27 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 15:28:27 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 15:30:17 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 15:30:21 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 15:30:21 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 15:31:38 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 15:31:41 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 15:31:41 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 15:32:11 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 15:32:12 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 15:32:12 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 16:02:52 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 16:02:54 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 16:02:54 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 16:06:47 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 16:06:50 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 16:06:50 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 16:07:37 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 16:07:38 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 16:07:38 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 16:25:52 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 16:25:55 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 16:25:55 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 16:36:24 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 16:36:26 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 16:36:26 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 16:39:14 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 16:39:17 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 16:39:17 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 17:03:39 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 17:03:42 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 17:03:42 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 17:07:42 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 17:07:44 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 17:07:45 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 17:09:19 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 17:09:21 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 17:09:22 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 17:11:23 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 17:11:26 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 17:11:26 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 17:11:46 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 17:11:47 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 17:11:47 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 17:11:47 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 17:11:51 INFO akka.actor.LocalActorRef - Message [com.neo.sk.hupuSpider.service.transformTool.StartStopRequireTrans] from Actor[akka://helloSystem/user/StartTimer#-569069812] to Actor[akka://helloSystem/user/StartTimer/StartRequire#-642088294] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+17-09-11 17:11:51 ERROR c.n.s.h.service.StartService$ - 请求收到Num2017-9-11 17:11:51
+17-09-11 17:15:55 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m37s725ms).
+17-09-11 17:52:38 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 17:52:41 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 17:52:41 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 17:53:52 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 17:53:52 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 17:53:52 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 17:53:53 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 17:58:51 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 17:58:54 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 17:58:54 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 17:59:58 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 18:00:00 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 18:00:00 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 18:05:10 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 18:05:13 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 18:05:13 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 18:05:26 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 18:05:27 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 18:05:27 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 18:05:27 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 18:08:46 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 18:08:50 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 18:08:50 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 18:18:51 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 18:18:53 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 18:18:53 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 18:24:40 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 18:24:43 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 18:24:43 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 18:25:03 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 18:25:03 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 18:25:04 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 18:25:04 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 18:31:38 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 18:31:41 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 18:31:41 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 18:32:12 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 18:32:13 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 18:32:13 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 18:32:13 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 18:34:05 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 18:34:07 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 18:34:08 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 18:34:27 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 18:34:27 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 18:34:28 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 18:34:28 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 18:34:52 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 18:34:54 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 18:34:54 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 18:35:22 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 18:35:24 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 18:35:24 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 18:35:37 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 18:35:37 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 18:35:37 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 18:35:37 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 18:36:20 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 18:36:22 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 18:36:22 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 18:36:33 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 18:36:34 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 18:36:34 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 18:36:34 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 18:38:01 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 18:38:04 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 18:38:04 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 18:38:26 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 18:38:27 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 18:38:27 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 18:38:27 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 18:42:16 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m12s394ms).
+17-09-11 18:49:25 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m28s377ms).
+17-09-11 18:51:37 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m41s692ms).
+17-09-11 18:56:31 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m54s69ms).
+17-09-11 19:00:27 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m25s783ms).
+17-09-11 19:05:24 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m27s128ms).
+17-09-11 19:07:12 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m48s233ms).
+17-09-11 19:18:33 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m20s489ms).
+17-09-11 19:20:17 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m43s755ms).
+17-09-11 19:43:16 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m29s390ms).
+17-09-11 19:47:48 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m2s170ms).
+17-09-11 19:53:55 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m6s499ms).
+17-09-11 20:03:35 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m10s337ms).
+17-09-11 20:11:04 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=28s725ms), soft-evicting connections from pool.
+17-09-11 20:29:28 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 20:29:31 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 20:29:32 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 20:30:00 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 20:30:00 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 20:30:00 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 20:30:00 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 20:35:10 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 20:35:16 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 20:35:16 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 20:35:43 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 20:35:44 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 20:35:44 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 20:35:44 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 20:37:41 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 20:37:44 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 20:37:44 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 20:38:31 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 20:38:33 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 20:38:33 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 20:39:10 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 20:39:10 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 20:39:10 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 20:39:10 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 20:41:51 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 20:41:54 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 20:41:54 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 20:47:17 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 20:47:20 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 20:47:20 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 20:48:00 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 20:48:00 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 20:48:00 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 20:48:00 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 20:49:52 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 20:49:55 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 20:49:55 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 20:50:20 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 20:50:21 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 20:50:21 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 20:50:21 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 20:51:40 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 20:51:45 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 20:51:46 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 20:52:13 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 20:52:13 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 20:52:13 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 20:52:13 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 20:52:49 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 20:52:51 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 20:52:51 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 20:53:12 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 20:53:14 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 20:53:14 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 20:53:26 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 20:53:27 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 20:53:27 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 20:53:27 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 20:54:28 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 20:54:31 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 20:54:31 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 20:54:40 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 20:54:41 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 20:54:41 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 20:54:41 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 20:55:44 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 20:55:50 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 20:55:50 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 20:56:06 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 20:56:06 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 20:56:07 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 20:56:07 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 20:58:00 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 20:58:06 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 20:58:06 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 20:58:28 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 20:58:30 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 20:58:30 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 20:58:44 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 20:58:44 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 20:58:45 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 20:58:45 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 21:03:19 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 21:03:23 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 21:03:23 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 21:04:12 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 21:04:13 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 21:04:13 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 21:04:32 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 21:04:33 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 21:04:33 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 21:04:33 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 21:07:44 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 21:07:47 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 21:07:47 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 21:08:06 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 21:08:06 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 21:08:06 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 21:08:06 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 21:19:34 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 21:19:37 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 21:19:37 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 21:19:48 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 21:19:48 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 21:19:49 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 21:19:49 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 21:20:45 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 21:20:53 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 21:20:53 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 21:21:36 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 21:21:36 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 21:21:36 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 21:21:37 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 21:23:36 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 21:23:39 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 21:23:39 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 21:24:00 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 21:24:00 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 21:24:01 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 21:24:01 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 21:30:32 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 21:30:34 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 21:30:34 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 21:30:57 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 21:30:58 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 21:30:59 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 21:31:20 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 21:31:21 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 21:31:21 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 21:31:21 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 21:33:30 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 21:33:34 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 21:33:34 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 21:34:12 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 21:34:12 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 21:34:12 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 21:34:12 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 21:36:25 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 21:36:27 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 21:36:27 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 21:36:42 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 21:36:43 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 21:36:43 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 21:36:43 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 21:39:05 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 21:39:07 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 21:39:07 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 21:39:30 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 21:39:30 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 21:39:31 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 21:39:31 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 21:48:24 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 21:48:27 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 21:48:27 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 21:48:52 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 21:48:53 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 21:48:53 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 21:48:53 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 21:49:34 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 21:49:37 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 21:49:37 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 21:50:49 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 21:50:50 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 21:50:50 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 21:50:50 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 21:53:29 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 21:53:33 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 21:53:33 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 21:53:58 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 21:53:58 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 21:53:58 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 21:53:58 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 21:54:51 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 21:54:54 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 21:54:54 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 21:55:22 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 21:55:23 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 21:55:23 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 21:55:23 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 22:02:02 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 22:02:05 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 22:02:05 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 22:02:25 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 22:02:26 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 22:02:26 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 22:02:26 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 22:03:33 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 22:03:39 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 22:03:39 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 22:03:52 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 22:03:53 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 22:03:53 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 22:03:53 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 22:17:47 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 22:17:50 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 22:17:50 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 22:19:07 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 22:19:07 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 22:19:07 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 22:19:07 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 22:20:13 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 22:20:16 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 22:20:16 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 22:23:25 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 22:23:25 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 22:23:25 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 22:23:25 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 22:31:11 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 22:31:14 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 22:31:14 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 22:32:05 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 22:32:06 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 22:32:06 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 22:32:29 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 22:32:30 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 22:32:30 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 22:32:30 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 22:50:55 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 22:56:02 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 22:56:02 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 22:56:26 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 22:56:27 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 22:56:27 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 22:56:27 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 22:59:43 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 22:59:46 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 22:59:46 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:02:04 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 23:02:04 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 23:02:04 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 23:02:04 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 23:08:04 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 23:08:08 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 23:08:08 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:08:33 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 23:08:34 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 23:08:34 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 23:08:34 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 23:13:13 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 23:13:16 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 23:13:16 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:14:22 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 23:14:23 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 23:14:24 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 23:14:24 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 23:16:41 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 23:16:44 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 23:16:44 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:16:55 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 23:16:55 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 23:16:55 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 23:16:55 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 23:30:33 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 23:30:36 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 23:30:36 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:30:48 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 23:30:49 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 23:30:49 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 23:30:49 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 23:32:54 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 23:32:57 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 23:32:57 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:33:14 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 23:33:14 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 23:33:14 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 23:33:14 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 23:34:34 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 23:34:38 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 23:34:38 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:34:49 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 23:34:50 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 23:34:50 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 23:34:50 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 23:37:55 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 23:37:57 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 23:37:57 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:38:08 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 23:38:09 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 23:38:09 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 23:38:09 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 23:41:53 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 23:41:57 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 23:41:57 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:42:07 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 23:42:08 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 23:42:09 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 23:42:09 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 23:43:13 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 23:43:20 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 23:43:20 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:43:39 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 23:43:39 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 23:43:39 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 23:43:39 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 23:44:46 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 23:44:50 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 23:44:50 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:45:03 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 23:45:04 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 23:45:04 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 23:45:04 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 23:46:21 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 23:46:25 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 23:46:25 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:46:36 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 23:46:40 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 23:46:40 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:46:52 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 23:46:52 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 23:46:52 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 23:46:52 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 23:47:29 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 23:47:32 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 23:47:32 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:47:43 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 23:47:44 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 23:47:44 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 23:47:44 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 23:48:16 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 23:55:26 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 23:55:26 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:55:43 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 23:55:44 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 23:55:44 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 23:55:44 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-11 23:59:01 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-11 23:59:04 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-11 23:59:04 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-11 23:59:18 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-11 23:59:19 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-11 23:59:19 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-11 23:59:19 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 00:00:52 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 00:00:55 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 00:00:55 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 00:01:14 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 00:01:14 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 00:01:14 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 00:01:14 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 00:04:23 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 00:04:27 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 00:04:27 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 00:04:45 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 00:04:46 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 00:04:46 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 00:04:46 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 00:05:08 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 10:14:17 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 10:14:17 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 10:14:35 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 10:14:36 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 10:14:36 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 10:14:36 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 10:21:19 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 10:21:22 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 10:21:22 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 10:22:04 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 10:22:05 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 10:22:05 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 10:22:05 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 10:25:10 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 10:25:14 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 10:25:14 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 10:25:43 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 10:25:45 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 10:25:45 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 10:25:45 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 10:27:05 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 10:27:11 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 10:27:11 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 10:27:23 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 10:27:23 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 10:27:23 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 10:27:23 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 10:35:51 WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=27s573ms), soft-evicting connections from pool.
+17-09-12 11:44:16 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 11:44:19 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 11:44:19 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 11:44:37 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 11:44:38 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 11:44:38 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 11:44:38 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 11:45:02 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 11:45:04 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 11:45:04 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 11:45:19 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 11:45:20 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 11:45:21 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 11:45:21 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 11:46:22 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 11:46:25 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 11:46:25 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 11:46:39 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 11:46:40 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 11:46:40 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 11:46:40 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 11:47:23 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 11:47:25 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 11:47:25 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 11:47:35 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 11:47:35 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 11:47:35 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 11:47:35 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 11:48:31 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 11:48:33 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 11:48:33 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 11:48:45 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 11:48:45 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 11:48:46 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 11:48:46 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 11:49:21 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 11:49:23 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 11:49:23 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 11:49:33 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 11:49:34 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 11:49:34 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 11:49:34 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 11:50:15 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 11:50:21 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 11:50:21 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 11:50:29 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 11:50:30 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 11:50:30 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 11:50:30 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 12:07:24 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 12:07:26 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 12:07:26 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 12:07:38 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 12:07:39 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 12:07:39 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 12:07:39 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 12:10:35 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 12:10:38 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 12:10:38 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 12:10:56 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 12:10:59 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 12:10:59 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 12:11:10 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 12:11:10 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 12:11:11 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 12:11:11 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 12:14:25 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 12:14:30 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 12:14:30 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 12:14:47 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 12:14:47 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 12:14:47 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 12:14:47 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 12:16:08 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 12:16:10 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 12:16:10 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 12:16:20 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 12:16:21 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 12:16:21 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 12:16:21 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 12:17:18 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 12:17:20 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 12:17:20 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 12:17:32 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 12:17:33 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 12:17:33 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 12:17:33 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 12:19:12 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 12:19:17 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 12:19:17 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 12:19:32 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 12:19:33 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 12:19:33 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 12:19:33 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 12:20:29 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 12:20:31 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 12:20:31 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 12:20:43 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 12:20:44 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 12:20:44 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 12:20:44 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 12:24:17 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 12:24:20 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 12:24:20 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 12:25:26 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 12:25:27 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 12:25:27 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 12:25:27 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 12:26:45 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 12:26:47 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 12:26:47 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 12:27:50 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 12:27:51 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 12:27:51 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 12:27:51 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 12:28:25 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 12:28:28 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 12:28:28 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 12:29:13 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 12:29:14 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 12:29:14 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 12:29:14 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 12:31:29 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 12:31:32 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 12:31:32 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 12:31:44 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 12:31:45 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 12:31:45 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 12:31:45 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 12:54:50 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 12:54:53 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 12:54:53 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 12:55:21 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 12:55:21 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 12:55:21 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 12:55:21 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 12:57:23 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 12:57:27 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 12:57:27 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 12:58:08 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 12:58:10 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 12:58:10 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 12:58:28 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 12:58:29 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 12:58:29 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 12:58:29 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 13:00:10 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 13:00:12 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 13:00:12 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 13:00:24 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 13:00:25 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 13:00:25 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 13:00:25 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 13:04:01 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 13:04:03 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 13:04:03 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 13:04:14 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 13:04:15 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 13:04:15 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 13:04:15 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 13:05:59 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 13:06:02 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 13:06:02 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 13:06:15 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 13:06:16 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 13:06:16 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 13:06:16 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 13:07:12 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 13:07:15 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 13:07:15 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 13:08:22 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 13:08:23 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 13:08:23 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 13:08:23 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 13:13:35 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 13:13:37 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 13:13:37 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 13:13:50 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 13:13:51 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 13:13:51 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 13:13:51 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 13:14:36 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 13:14:38 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 13:14:38 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 13:14:56 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 13:14:56 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 13:14:56 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 13:14:56 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 13:19:50 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 13:19:52 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 13:19:53 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 13:20:46 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 13:20:48 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 13:20:48 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 13:21:09 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 13:21:10 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 13:21:10 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 13:21:10 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 13:22:29 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 13:22:57 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 13:22:57 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 13:23:10 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 13:23:11 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 13:23:11 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 13:23:11 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 13:25:12 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 13:25:16 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 13:25:16 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 13:25:48 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 13:25:49 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 13:25:49 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 13:25:49 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 13:29:35 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 13:29:39 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 13:29:39 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 13:29:50 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 13:29:50 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 13:29:50 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 13:29:50 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 13:31:14 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 13:31:17 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 13:31:17 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 13:31:41 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 13:31:42 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 13:31:42 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 13:31:42 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 13:34:09 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 13:34:12 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 13:34:12 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 13:34:23 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 13:34:24 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 13:34:25 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 13:34:25 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 13:34:50 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 13:34:55 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 13:34:55 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 13:35:09 ERROR c.n.s.h.service.StartService$ - 请求收到area2017-9-12 13:35:08
+17-09-12 13:35:13 ERROR c.n.s.h.service.StartService$ - 请求收到area2017-9-12 13:35:13
+17-09-12 13:35:16 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 13:35:17 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 13:35:17 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 13:35:17 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17-09-12 13:35:36 INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+17-09-12 13:35:39 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17-09-12 13:35:39 INFO com.neo.sk.hupuSpider.Boot$ - Starting.
+17-09-12 13:36:02 INFO com.neo.sk.utils.DBUtil$ - connect to db: jdbc:postgresql://localhost:5432/hupuSpider
+17-09-12 13:36:03 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17-09-12 13:36:03 INFO com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (这个 org.postgresql.jdbc.PgConnection.getNetworkTimeout() 方法尚未被实作。)
+17-09-12 13:36:03 INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

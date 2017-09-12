@@ -65,7 +65,7 @@ object Http {
     postJson(url, bodyStr, withCookie).map { s =>
       decode[T](s) match {
         case Right(rsp) =>
-          println(s"create room request sent success, result: $rsp")
+          //println(s"create room request sent success, result: $rsp")
           rsp
         case Left(error) =>
           println(s"request sent complete, but error happen: $error")
