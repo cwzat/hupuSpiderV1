@@ -1,9 +1,11 @@
 package com.neo.sk.hupuSpider.models.Dao
 
-import com.neo.sk.hupuSpider.models.SlickTables
 import slick.jdbc.PostgresProfile.api._
-import com.neo.sk.hupuSpider.models.SlickTables._
 import com.neo.sk.utils.DBUtil.db
+import com.neo.sk.hupuSpider.models
+import hupuSpider.models.SlickTables
+import hupuSpider.models.SlickTables._
+
 
 /**
   * Created by cwz on 2017/8/18.
@@ -11,6 +13,7 @@ import com.neo.sk.utils.DBUtil.db
 object postTableDao {
   def insert(board:String,subarea:String,id:Long,postUrl:String,
             postTitle:String,authorName:String,authorUrl:String, content:String,time:String )= db.run{
+
     tPosttable += SlickTables.rPosttable(
       board,subarea,id,
       postUrl, postTitle,authorName,
@@ -52,7 +55,7 @@ object postTableDao {
   def getAreaPostInfo(board:String,subarea:String) = db.run{
    tPosttable.filter(_.board === board).
       filter(_.subarea === subarea).sortBy(_.time).
-      map(r => (r.posttitle ,r.content, r.posturl ,r.authorname ,r.authorurl , r.time)).
+      map(r => (r.posttitle ,r.content, r.posturl ,r.authorname ,r.authorurl , r.time,r.id)).
      result
 
   }
@@ -74,4 +77,5 @@ object postTableDao {
       drop(start-1).
       result
   )
+
 }

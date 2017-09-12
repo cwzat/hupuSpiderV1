@@ -23,6 +23,7 @@ object Routes {
     val shoppingGoodsRoute = showRoute + "/shoppingGoods"
     val buxingjieRoute = showRoute + "/buxingjie"
     val shihuhuRoute = showRoute + "/shihuhu"
+    val postComRoute = showRoute + "/postCom"
   }
 
 

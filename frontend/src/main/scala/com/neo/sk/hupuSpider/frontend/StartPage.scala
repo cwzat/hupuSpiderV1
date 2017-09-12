@@ -51,9 +51,9 @@ object StartPage extends Component[Div] {
             *.`class` := "btn btn-primary",
             *.role := "button",
             *.onclick := {e:MouseEvent =>
-              sessionStorage.clear()
+              sessionStorage.removeItem("boardAreaName")
               sessionStorage.setItem("boardAreaName", "运动装备#运动装备")
-              dom.window.location.href = "http://localhost:9000/hupuSpider/showArea/hello"
+              dom.window.location.href = "/hupuSpider/showArea/hello"
             }
           )("运动装备")
         )
@@ -71,9 +71,9 @@ object StartPage extends Component[Div] {
             *.`class` := "btn btn-primary",
             *.role := "button",
             *.onclick := {e:MouseEvent =>
-              sessionStorage.clear()
+              sessionStorage.removeItem("boardAreaName")
               sessionStorage.setItem("boardAreaName", "运动装备#交易品(新区)")
-              dom.window.location.href = "http://localhost:9000/hupuSpider/showArea/hello"
+              dom.window.location.href = "/hupuSpider/showArea/hello"
             }
           )("交易品新区")
         )
@@ -91,9 +91,9 @@ object StartPage extends Component[Div] {
             *.`class` := "btn btn-primary",
             *.role := "button",
             *.onclick := {e:MouseEvent =>
-              sessionStorage.clear()
+              sessionStorage.removeItem("boardAreaName")
               sessionStorage.setItem("boardAreaName", "步行街#步行街主干道")
-              dom.window.location.href = "http://localhost:9000/hupuSpider/showArea/hello"
+              dom.window.location.href = "/hupuSpider/showArea/hello"
             }
           )("步行街主干道")
         )
@@ -111,9 +111,9 @@ object StartPage extends Component[Div] {
             *.`class` := "btn btn-primary",
             *.role := "button",
             *.onclick := {e:MouseEvent =>
-              sessionStorage.clear()
+              sessionStorage.removeItem("boardAreaName")
               sessionStorage.setItem("boardAreaName", "NBA论坛#湿乎乎的话题")
-              dom.window.location.href = "http://localhost:9000/hupuSpider/showArea/hello"
+              dom.window.location.href = "/hupuSpider/showArea/hello"
             }
           )("湿乎乎的话题")
         )

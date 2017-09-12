@@ -1,10 +1,11 @@
 package com.neo.sk.hupuSpider.models.Dao
 
-import com.neo.sk.hupuSpider.models.SlickTables
-import com.neo.sk.hupuSpider.models.SlickTables._
 import com.neo.sk.hupuSpider.service.GetAreaPostUrl
 import slick.jdbc.PostgresProfile.api._
 import com.neo.sk.utils.DBUtil.db
+import hupuSpider.models.SlickTables
+import hupuSpider.models.SlickTables._
+
 /**
   * Created by cwz on 2017/8/18.
   */
@@ -44,12 +45,26 @@ object commentTableDao {
         r.replyfloor)).
       result
   }
-  def getAreaComPs(board:String,areaName:String) = db.run(
-    tPosttable.filter(_.board === board).
-      filter(_.subarea === areaName).
-      map(_.posturl).
+//  def getAreaComPs(board:String,areaName:String) = db.run(
+//    tPosttable.filter(_.board === board).
+//      filter(_.subarea === areaName).
+//      map(_.posturl).
+//      result
+//
+//  )
+  def getAllPostUrl() = db.run(
+    tCommenttable.map(_.posturl).result
+  )
+  def updateId (postUrl: String,id : Long) = db.run(
+    tCommenttable.filter(_.posturl === postUrl).
+      map( r => r.postid).
+      update(Some(id))
+  )
+  def getPostCom(postId:Long) = db.run {
+    tCommenttable.filter(_.postid === postId).
+      map(r => (r.commentcontent, r.commentername, r.commentfloor, r.replyfloor)).
       result
 
-  )
+  }
 
 }

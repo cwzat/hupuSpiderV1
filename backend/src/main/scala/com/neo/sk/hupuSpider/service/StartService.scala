@@ -81,10 +81,7 @@ trait StartService extends CirceSupport with ServiceUtils{
       entity(as[Either[Error, ptcl.StopReq]]) {
         case Right(p) =>{
           startOrStop ! StartStopRequireTrans("stop")
-
           complete(ptcl.StopRsp())
-
-
         }
         case Left(error) =>
           log.warn(s"some error: $error")

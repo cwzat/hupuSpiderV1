@@ -1,5 +1,4 @@
-package com.neo.sk.hupuSpider.models
-
+package hupuSpider.models
 // AUTO-GENERATED Slick data model
 /** Stand-alone Slick data model for immediate use */
 object SlickTables extends {
@@ -30,18 +29,19 @@ trait SlickTables {
    *  @param lights Database column lights SqlType(int8)
    *  @param replyfloor Database column replyFloor SqlType(int8)
    *  @param boardname Database column boardName SqlType(text)
-   *  @param areaname Database column areaName SqlType(text) */
-  case class rCommenttable(posturl: String, commentid: Long, commentglobalurl: String, commentfloor: Long, commentcontent: String, commenterid: String, commentername: String, lights: Long, replyfloor: Long, boardname: String, areaname: String)
+   *  @param areaname Database column areaName SqlType(text)
+   *  @param postid Database column postid SqlType(int8), Default(None) */
+  final case class rCommenttable(posturl: String, commentid: Long, commentglobalurl: String, commentfloor: Long, commentcontent: String, commenterid: String, commentername: String, lights: Long, replyfloor: Long, boardname: String, areaname: String, postid: Option[Long] = None)
   /** GetResult implicit for fetching rCommenttable objects using plain SQL queries */
-  implicit def GetResultrCommenttable(implicit e0: GR[String], e1: GR[Long]): GR[rCommenttable] = GR{
+  implicit def GetResultrCommenttable(implicit e0: GR[String], e1: GR[Long], e2: GR[Option[Long]]): GR[rCommenttable] = GR{
     prs => import prs._
-    rCommenttable.tupled((<<[String], <<[Long], <<[String], <<[Long], <<[String], <<[String], <<[String], <<[Long], <<[Long], <<[String], <<[String]))
+    rCommenttable.tupled((<<[String], <<[Long], <<[String], <<[Long], <<[String], <<[String], <<[String], <<[Long], <<[Long], <<[String], <<[String], <<?[Long]))
   }
   /** Table description of table commentTable. Objects of this class serve as prototypes for rows in queries. */
   class tCommenttable(_tableTag: Tag) extends profile.api.Table[rCommenttable](_tableTag, "commentTable") {
-    def * = (posturl, commentid, commentglobalurl, commentfloor, commentcontent, commenterid, commentername, lights, replyfloor, boardname, areaname) <> (rCommenttable.tupled, rCommenttable.unapply)
+    def * = (posturl, commentid, commentglobalurl, commentfloor, commentcontent, commenterid, commentername, lights, replyfloor, boardname, areaname, postid) <> (rCommenttable.tupled, rCommenttable.unapply)
     /** Maps whole row to an option. Useful for outer joins. */
-    def ? = (Rep.Some(posturl), Rep.Some(commentid), Rep.Some(commentglobalurl), Rep.Some(commentfloor), Rep.Some(commentcontent), Rep.Some(commenterid), Rep.Some(commentername), Rep.Some(lights), Rep.Some(replyfloor), Rep.Some(boardname), Rep.Some(areaname)).shaped.<>({r=>import r._; _1.map(_=> rCommenttable.tupled((_1.get, _2.get, _3.get, _4.get, _5.get, _6.get, _7.get, _8.get, _9.get, _10.get, _11.get)))}, (_:Any) =>  throw new Exception("Inserting into ? projection not supported."))
+    def ? = (Rep.Some(posturl), Rep.Some(commentid), Rep.Some(commentglobalurl), Rep.Some(commentfloor), Rep.Some(commentcontent), Rep.Some(commenterid), Rep.Some(commentername), Rep.Some(lights), Rep.Some(replyfloor), Rep.Some(boardname), Rep.Some(areaname), postid).shaped.<>({r=>import r._; _1.map(_=> rCommenttable.tupled((_1.get, _2.get, _3.get, _4.get, _5.get, _6.get, _7.get, _8.get, _9.get, _10.get, _11.get, _12)))}, (_:Any) =>  throw new Exception("Inserting into ? projection not supported."))
 
     /** Database column postUrl SqlType(text) */
     val posturl: Rep[String] = column[String]("postUrl")
@@ -65,6 +65,8 @@ trait SlickTables {
     val boardname: Rep[String] = column[String]("boardName")
     /** Database column areaName SqlType(text) */
     val areaname: Rep[String] = column[String]("areaName")
+    /** Database column postid SqlType(int8), Default(None) */
+    val postid: Rep[Option[Long]] = column[Option[Long]]("postid", O.Default(None))
   }
   /** Collection-like TableQuery object for table tCommenttable */
   lazy val tCommenttable = new TableQuery(tag => new tCommenttable(tag))
@@ -79,7 +81,7 @@ trait SlickTables {
    *  @param authorurl Database column authorUrl SqlType(text)
    *  @param content Database column content SqlType(text)
    *  @param time Database column time SqlType(text) */
-  case class rPosttable(board: String, subarea: String, id: Long, posturl: String, posttitle: String, authorname: String, authorurl: String, content: String, time: String)
+  final case class rPosttable(board: String, subarea: String, id: Long, posturl: String, posttitle: String, authorname: String, authorurl: String, content: String, time: String)
   /** GetResult implicit for fetching rPosttable objects using plain SQL queries */
   implicit def GetResultrPosttable(implicit e0: GR[String], e1: GR[Long]): GR[rPosttable] = GR{
     prs => import prs._
@@ -118,7 +120,7 @@ trait SlickTables {
    *  @param subarea Database column subarea SqlType(text)
    *  @param farthest Database column farthest SqlType(text)
    *  @param last Database column last SqlType(text) */
-  case class rTimetable(board: String, subarea: String, farthest: String, last: String)
+  final case class rTimetable(board: String, subarea: String, farthest: String, last: String)
   /** GetResult implicit for fetching rTimetable objects using plain SQL queries */
   implicit def GetResultrTimetable(implicit e0: GR[String]): GR[rTimetable] = GR{
     prs => import prs._

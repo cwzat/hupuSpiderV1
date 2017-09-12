@@ -22,7 +22,41 @@ object ShowSportEqui extends Component[Div] {
 
   import scalatags.JsDom.short._
 
-  private val bar = div(*.`class` := "navbar navbar-default navbar-fixed-top")(
+  //路径
+  private val data = ptcl.ShowAreaReq().asJson.noSpaces
+
+  //分区
+  private val mes = sessionStorage.getItem("boardAreaName")
+  private val board = mes.split("#")(0)
+  private val subarea = mes.split("#")(1)
+
+
+  private val sportb = button(*.`class` := "btn btn-link btn-lg")("运动装备").render
+  sportb.onclick = { e: MouseEvent =>
+      sessionStorage.removeItem("boardAreaName")
+      sessionStorage.setItem("boardAreaName", "运动装备#运动装备")
+      dom.window.location.href = "/hupuSpider/showArea/hello"
+  }
+  private val bussinessb = button(*.`class` := "btn btn-link btn-lg")("交易品(新区)").render
+  bussinessb.onclick = { e: MouseEvent =>
+    sessionStorage.removeItem("boardAreaName")
+    sessionStorage.setItem("boardAreaName", "运动装备#交易品(新区)")
+    dom.window.location.href = "/hupuSpider/showArea/hello"
+  }
+  private val buxingjieb = button(*.`class` := "btn btn-link btn-lg")("步行街").render
+  buxingjieb.onclick =  { e: MouseEvent =>
+    sessionStorage.removeItem("boardAreaName")
+    sessionStorage.setItem("boardAreaName", "步行街#步行街主干道")
+    dom.window.location.href = "/hupuSpider/showArea/hello"
+  }
+  private val shihuhub = button(*.`class` := "btn btn-link btn-lg")("湿乎乎的话题").render
+  shihuhub.onclick = { e: MouseEvent =>
+    sessionStorage.removeItem("boardAreaName")
+    sessionStorage.setItem("boardAreaName", "NBA论坛#湿乎乎的话题")
+    dom.window.location.href = "/hupuSpider/showArea/hello"
+  }
+  private val bar = div(*.`class` := "navbar navbar-default navbar-fixed-top",
+    *.padding := "5px 0px 5px 0px")(
     div(*.`class` := "container-fluid")(
       div(*.`class` := "navbar-header")(
         button(
@@ -36,68 +70,29 @@ object ShowSportEqui extends Component[Div] {
       ), //头部
       div(*.`class` := "collapse navbar-collapse")(
         ul(*.`class` := "nav navbar-nav")(
-          li(
-            button(
-              *.`class` := "btn btn-link btn-lg",
-              *.role := "button",
-              *.onclick := { e: MouseEvent =>
-                sessionStorage.clear()
-                sessionStorage.setItem("boardAreaName", "运动装备#运动装备")
-                dom.window.location.href = "/hupuSpider/showArea/hello"
-              }
-            )("运动装备")
-
-          ),
-          li(
-            button(
-              *.`class` := "btn btn-link btn-lg",
-              *.role := "button",
-              *.onclick := { e: MouseEvent =>
-                sessionStorage.clear()
-                sessionStorage.setItem("boardAreaName", "运动装备#交易品(新区)")
-                dom.window.location.href = "/hupuSpider/showArea/hello"
-              }
-            )("交易品(新区)")
-          ),
-          li(
-            button(
-              *.`class` := "btn btn-link btn-lg",
-              *.role := "button",
-              *.onclick := { e: MouseEvent =>
-                sessionStorage.clear()
-                sessionStorage.setItem("boardAreaName", "步行街#步行街主干道")
-                dom.window.location.href = "/hupuSpider/showArea/hello"
-              }
-            )("步行街")
-          ),
-          li(
-            button(
-              *.`class` := "btn btn-link btn-lg",
-              *.role := "button",
-              *.onclick := { e: MouseEvent =>
-                sessionStorage.clear()
-                sessionStorage.setItem("boardAreaName", "NBA论坛#湿乎乎的话题")
-                dom.window.location.href = "/hupuSpider/showArea/hello"
-              }
-            )("湿乎乎的话题")
-          )
+          li(sportb),
+          li(bussinessb),
+          li(buxingjieb),
+          li()
         )
       ) //分区
     )
   ).render
 
   //private var preDiv = div().render
-  //路径
-  private val data = ptcl.ShowAreaReq().asJson.noSpaces
-
-  //分区
-  private val mes = sessionStorage.getItem("boardAreaName")
-  private val board = mes.split("#")(0)
-  private val subarea = mes.split("#")(1)
-
-  //导航栏
 
 
+  private val area = mes match {
+    case "运动装备#运动装备" =>
+      sportb.setAttribute("class","btn btn-primary btn-lg btn-block")
+      //sportb.setAttribute("disabled","disabled")
+    case "运动装备#交易品(新区)" =>
+      bussinessb.setAttribute("class","btn btn-primary btn-lg btn-block ")
+    case "步行街#步行街主干道" =>
+      buxingjieb.setAttribute("class","btn btn-primary btn-lg  btn-block")
+    case "NBA论坛#湿乎乎的话题" =>
+      shihuhub.setAttribute("class","btn btn-primary btn-lg  btn-block")
+  }
   //请求数据
   private val url = mes match {
     case "运动装备#运动装备" =>
@@ -112,8 +107,8 @@ object ShowSportEqui extends Component[Div] {
 
   private val page = div(*.`class` := "nav",
     *.style := "aria-label: Page navigation",
-    *.padding := "10px 0px 20px 500px")().render
-  private val pageUl = ul(*.`class` := "pagination")().render
+    *.padding := "10px 0px 20px 550px")().render
+  private val pageUl = ul(*.`class` := "pagination pagination-lg")().render
   private var maxpage = 0
   Http.postJsonAndParse[ptcl.ShowAreaRsp](url, data).map {
     rsp =>
@@ -155,7 +150,7 @@ object ShowSportEqui extends Component[Div] {
         getPostTable(AreaInfo.postList, 1, board, subarea)
 
 
-        //r.posttitle ,r.content, r.posturl ,r.authorname ,r.authorurl , r.time
+        //r.posttitle ,r.content, r.posturl ,r.authorname ,r.authorurl , r.time,r.id
         //r.posturl,r.commentcontent,r.commentfloor,r.commentername,r.replyfloor
 
       } else {
@@ -178,7 +173,7 @@ object ShowSportEqui extends Component[Div] {
 
   //r.posttitle ,r.content, r.posturl ,r.authorname ,r.authorurl , r.time
   //r.posturl,r.commentcontent,r.commentfloor,r.commentername,r.replyfloor
-  def getPostTable(postList: List[(String, String, String, String, String, String)],
+  def getPostTable(postList: List[(String, String, String, String, String, String,Long)],
                    pagenum: Int,
                    board: String,
                    subarea: String):Unit = {
@@ -370,7 +365,17 @@ object ShowSportEqui extends Component[Div] {
       number += 1
       val postI = tr(
         td(*.fontWeight := "800")(number),
-        td(a(*.onclick := { e: MouseEvent => getDetail(i._3, i._2) })(i._1).render).render,
+        td(
+          a(*.onclick := {e:MouseEvent =>
+            sessionStorage.removeItem("postId")
+            sessionStorage.removeItem("postContent")
+            sessionStorage.removeItem("postTitle")
+            sessionStorage.setItem("postTitle",i._1)
+            sessionStorage.setItem("postContent",i._2)
+            sessionStorage.setItem("postId", i._7.toString)
+            dom.window.location.href = "/hupuSpider/showArea/postInfo"
+          })(i._1).render
+        ).render,
         td("@" + i._4).render,
         td(i._6).render
       ).render

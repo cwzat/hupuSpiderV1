@@ -43,8 +43,7 @@ trait ShowSportEquiService extends CirceSupport with ServiceUtils {
       getFromResource("html/index.html")
     } ~ (path("postInfo") & get) {
       getFromResource("html/index.html")
-    } ~
-      (path("sportEqui") & post) {
+    } ~ (path("sportEqui") & post) {
         //运动装备
         entity(as[Either[Error, ptcl.ShowAreaReq]]) {
           case Right(p) => {
@@ -113,6 +112,24 @@ trait ShowSportEquiService extends CirceSupport with ServiceUtils {
             post <- postTableDao.getAreaPostInfo("NBA论坛", "湿乎乎的话题")
           } yield {
             complete(ptcl.ShowAreaRsp(post.reverse,length))
+          }
+          dealFutureResult(com)
+        }
+        case Left(error) =>
+          log.warn(s"some error: $error")
+          complete(ptcl.ErrorRsp(1, s"error: $error"))
+
+      }
+    }~ (path("postCom") & post) {
+      entity(as[Either[Error, ptcl.PostComReq]]) {
+        case Right(p) => {
+          val now1 = new Date()
+          val df1 = DateFormat.getDateTimeInstance()
+          println("请求后台postCom发送area"+ df1.format(now1))
+          val com = for {
+            res <- commentTableDao.getPostCom(p.postId)
+          } yield {
+            complete(ptcl.PostComRsp(res))
           }
           dealFutureResult(com)
         }

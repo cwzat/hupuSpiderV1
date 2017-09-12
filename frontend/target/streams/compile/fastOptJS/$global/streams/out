@@ -1,16 +1,16 @@
 [0m[[0minfo[0m] [0mFast optimizing /Users/cwz/Documents/scala/hupuSpider/frontend/target/scala-2.12/sjsout/frontend-fastopt.js[0m
-[0m[[0mdebug[0m] [0mLinker: Compute reachability: 189979 us[0m
-[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 114696 us[0m
-[0m[[0mdebug[0m] [0mBasic Linking: 310022 us[0m
+[0m[[0mdebug[0m] [0mLinker: Compute reachability: 353238 us[0m
+[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 49459 us[0m
+[0m[[0mdebug[0m] [0mBasic Linking: 412608 us[0m
 [0m[[0mdebug[0m] [0mInc. optimizer: Batch mode: false[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 15546 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 49386 us[0m
 [0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 1 methods.[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 72794 us[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: 92179 us[0m
-[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 110801 us[0m
-[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 5664 us[0m
-[0m[[0mdebug[0m] [0mRefiner: 116583 us[0m
-[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 1430 -- invalidated: 9[0m
-[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 2873 -- invalidated: 1[0m
-[0m[[0mdebug[0m] [0mEmitter (write output): 136113 us[0m
-[0m[[0mdebug[0m] [0mGlobal IR cache stats: reused: 85 -- invalidated: 12 -- trees read: 9[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 86127 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: 146161 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 153383 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 8520 us[0m
+[0m[[0mdebug[0m] [0mRefiner: 162076 us[0m
+[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 1468 -- invalidated: 9[0m
+[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 2951 -- invalidated: 1[0m
+[0m[[0mdebug[0m] [0mEmitter (write output): 141157 us[0m
+[0m[[0mdebug[0m] [0mGlobal IR cache stats: reused: 101 -- invalidated: 12 -- trees read: 9[0m
